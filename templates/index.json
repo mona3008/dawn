@@ -7,7 +7,7 @@
         "alt_text": "",
         "tooltips": "Show Movie1",
         "tooltip_links": "www.google.com",
-        "tooltip_positions": "`left: 50%; top: 20%;`"
+        "tooltip_positions": "`left: 50%; top: 50%;`"
       }
     },
     "image_banner": {
