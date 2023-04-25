@@ -2,23 +2,9 @@
   "sections": {
     "51f1dc85-1552-4a95-bb03-d7c1583928ea": {
       "type": "tooltips",
-      "blocks": {
-        "template--18758768034073__51f1dc85-1552-4a95-bb03-d7c1583928ea-1682408069b792e8d1-0": {
-          "type": "Tooltip",
-          "settings": {
-            "title": "",
-            "content": "<!-- HTML Codes by Quackit.com -->\n\n<title>Text Example<\/title>\n<style>\ndiv.container p {\n\nfont-size: 16px;\nfont-style: normal;\nfont-weight: bold;\ntext-decoration: none;\ntext-transform: none;\ncolor: #bb0000;\n}\n<\/style>\n\n<div class=\"container\">\n<p>SHOP NOTLD<\/p>\n<\/div>",
-            "top": 50,
-            "left": 50
-          }
-        }
-      },
-      "block_order": [
-        "template--18758768034073__51f1dc85-1552-4a95-bb03-d7c1583928ea-1682408069b792e8d1-0"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/jack-new-banner-test.jpg",
-        "tooltip_color": "#ffffff",
+        "tooltip_color": "#bb0000",
         "tooltip_background_color": "#bb0000",
         "tooltip_focus_color": "#bb0000",
         "breakpoint": "768"
