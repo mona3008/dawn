@@ -41,7 +41,7 @@
     "3c77b8e4-6109-4473-894e-e65d74f0c962": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": ".button-container {\n  text-align: center;\n}\n\n.button {\n  background-color: #bb0000;\n  color: #fff;\n  font-family: Futura, sans-serif;\n  font-size: 20px;\n  padding: 10px 20px;\n  border: none;\n  border-radius: 5px;\n  cursor: pointer;\n  text-decoration: none;\n  display: inline-block;\n  margin-right: 10px; \/* add some space between the buttons *\/\n}",
+        "custom_liquid": "<div class=\"button-container\">\n  <a href=\"\/collections\/all\" class=\"button\">{{ 'Products' }}<\/a>\n  <a href=\"\/collections\" class=\"button\">{{ 'Categories' }}<\/a>\n<\/div>\n\n<style>\n.button-container {\n  text-align: center;\n}\n\n.button {\n  background-color: #bb0000;\n  color: #fff;\n  font-family: Futura, sans-serif;\n  font-size: 20px;\n  padding: 10px 20px;\n  border: none;\n  border-radius: 5px;\n  cursor: pointer;\n  text-decoration: none;\n  display: inline-block;\n  margin-right: 10px; \/* add some space between the buttons *\/\n}\n<\/style>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
