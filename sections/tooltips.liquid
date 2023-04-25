@@ -66,7 +66,7 @@
     display: none;
   }
   
-  {{ section_selector }} .tooltip-button:focus .tooltip-index,
+  {{ section_selector }} .tooltip-button:hover .tooltip-index,
   {{ section_selector }} .tooltip-button[aria-expanded="true"] .tooltip-index {
     box-shadow: 0 0 0 2px {{ section.settings.tooltip_focus_color }};
   }
@@ -332,7 +332,37 @@
       sectionHost.addEventListener('shopify:block:select', toggleSelect);
       sectionHost.addEventListener('shopify:block:deselect', toggleSelect); 
     }
+  function initTooltips(sectionId) {
+  var sectionHost = document.querySelector('[data-tooltips="' + sectionId + '"]');
+  var tooltipButtons = sectionHost.querySelectorAll('.tooltip-button');
+  
+  tooltipButtons.forEach(function(button) {
+    button.addEventListener('mouseenter', showTooltip);
+    button.addEventListener('mouseleave', hideTooltip);
+  });
+  
+  function showTooltip(event) {
+    var button = event.currentTarget;
+    var overlay = button.nextElementSibling;
     
+    overlay.setAttribute('aria-hidden', 'false');
+    button.setAttribute('aria-expanded', 'true');
+  }
+  
+  function hideTooltip(event) {
+    var button = event.currentTarget;
+    var overlay = button.nextElementSibling;
+    
+    overlay.setAttribute('aria-hidden', 'true');
+    button.setAttribute('aria-expanded', 'false');
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  var sectionId = document.querySelector('.tooltips-section').getAttribute('data-tooltips');
+  initTooltips(sectionId);
+});
+  
     function toggleSelect(evt) {
       var sectionId = evt.detail.sectionId;
       var blockId = evt.detail.blockId;
