@@ -275,6 +275,16 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "523db546-1d20-4151-ae41-1576aa369788": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "{% comment %}\n  Define variables for the button's text, link URL, and image URL\n{% endcomment %}\n{% assign buttonText = \"Buy on Amazon\" %}\n{% assign buttonUrl = \"https:\/\/a.co\/d\/iHG0PYB\" %}\n{% assign buttonImage = \"https:\/\/aerodynamicadvisory.com\/wp-content\/uploads\/2018\/11\/buy-on-amazon-button.png\" %}\n\n{% comment %}\n  Generate the HTML for the button\n{% endcomment %}\n{% capture buttonHtml %}\n  <a href=\"{{ buttonUrl }}\" class=\"amazon-button\">\n    <img src=\"{{ buttonImage }}\" alt=\"{{ buttonText }}\">\n    {{ buttonText }}\n  <\/a>\n{% endcapture %}\n\n{% comment %}\n  Output the HTML for the button with the CSS styling\n{% endcomment %}\n<style>\n.amazon-button {\n  display: inline-block;\n  background-size: contain;\n  background-repeat: no-repeat;\n  color: #fff;\n  text-decoration: none;\n  text-transform: uppercase;\n  font-weight: bold;\n  padding: 15px 30px;\n  border-radius: 5px;\n  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);\n}\n\n.amazon-button img {\n  width: 50%;\n  height: auto;\n  display: block;\n}\n<\/style>\n\n{{ buttonHtml }}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -286,6 +296,7 @@
     "collage",
     "video",
     "multicolumn",
-    "e0ba859a-828c-4be1-b412-a77762944550"
+    "e0ba859a-828c-4be1-b412-a77762944550",
+    "523db546-1d20-4151-ae41-1576aa369788"
   ]
 }
