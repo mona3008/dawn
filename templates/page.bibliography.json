@@ -39,7 +39,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/notld68.png",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -51,10 +51,56 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "82739cef-5395-48d6-9b01-901b194caef8": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18761085354265__82739cef-5395-48d6-9b01-901b194caef8-168241509067800fdd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em><strong>Return of the Living Dead <\/strong><\/em>(1978)",
+            "heading_size": "h2"
+          }
+        },
+        "template--18761085354265__82739cef-5395-48d6-9b01-901b194caef8-168241509067800fdd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The long-awaited sequel to <em><strong>Night of the Living Dead.<\/strong><\/em><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18761085354265__82739cef-5395-48d6-9b01-901b194caef8-168241509067800fdd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18761085354265__82739cef-5395-48d6-9b01-901b194caef8-168241509067800fdd-0",
+        "template--18761085354265__82739cef-5395-48d6-9b01-901b194caef8-168241509067800fdd-1",
+        "template--18761085354265__82739cef-5395-48d6-9b01-901b194caef8-168241509067800fdd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/rotld.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "2c589464-2c65-46ef-97df-47ad76b6b8d3"
+    "2c589464-2c65-46ef-97df-47ad76b6b8d3",
+    "82739cef-5395-48d6-9b01-901b194caef8"
   ]
 }
