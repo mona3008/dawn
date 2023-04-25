@@ -312,9 +312,10 @@
             {%- when 'buy_buttons' -%}
 
             {% if product.tags contains 'amazon-link' %}
-  <a href="https://amazon.com/" target="_blank" rel="noopener noreferrer" class="button button--primary">
-    {{ 'Buy on Amazon' }}
-  </a>
+<a href="{{ amazon_link }}" target="_blank" rel="noopener noreferrer" class="button button--amazon">
+  {{ 'Buy on Amazon' }}
+</a>
+
 {% else %}
   {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
 {% endif %}
