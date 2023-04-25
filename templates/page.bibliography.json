@@ -148,14 +148,14 @@
         "template--18761085354265__1aa67580-a858-4768-8be0-1273e0164654-16824184578750e9f3-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "<em><strong>Midnight<\/strong><\/em> (1980)",
+            "heading_size": "h2"
           }
         },
         "template--18761085354265__1aa67580-a858-4768-8be0-1273e0164654-16824184578750e9f3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>A terrifying novel, <em><strong>Midnight<\/strong><\/em> was adapted into the 1982 film of the same title.<\/p>",
+            "text": "<p>A terrifying novel, <em><strong>Midnight<\/strong><\/em> was adapted by John Russo into his 1982 film of the same title.<\/p>",
             "text_style": "body"
           }
         },
@@ -193,7 +193,7 @@
         "template--18761085354265__faa79c68-29d0-4e88-abfb-6a4bb23dfdce-16824184578750e9f3-0": {
           "type": "heading",
           "settings": {
-            "heading": "<em><strong>Midnight<\/strong><\/em> (1980)",
+            "heading": "",
             "heading_size": "h2"
           }
         },
