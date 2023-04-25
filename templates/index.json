@@ -3,35 +3,19 @@
     "f374c17b-21f0-4b3b-a1df-a74d062a78e9": {
       "type": "image-banner",
       "blocks": {
-        "template--18758768034073__f374c17b-21f0-4b3b-a1df-a74d062a78e9-1682417198f225518f-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--18758768034073__f374c17b-21f0-4b3b-a1df-a74d062a78e9-1682417198f225518f-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
         "template--18758768034073__f374c17b-21f0-4b3b-a1df-a74d062a78e9-1682417198f225518f-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "Categories",
+            "button_link_1": "shopify:\/\/collections",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
+            "button_label_2": "Products",
+            "button_link_2": "shopify:\/\/collections\/all",
             "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "template--18758768034073__f374c17b-21f0-4b3b-a1df-a74d062a78e9-1682417198f225518f-0",
-        "template--18758768034073__f374c17b-21f0-4b3b-a1df-a74d062a78e9-1682417198f225518f-1",
         "template--18758768034073__f374c17b-21f0-4b3b-a1df-a74d062a78e9-1682417198f225518f-2"
       ],
       "settings": {
