@@ -60,7 +60,6 @@
     opacity: 1;
     overflow: hidden;
     will-change: height;
-    z-index: 9999;
 
   }
   
@@ -127,7 +126,6 @@
       transform: translate(0, 0);
       line-height: {{ button_width_large }}px;
       width: {{ button_width_large }}px;
-      z-index: 9999;
 
     }
     
@@ -174,6 +172,8 @@
       transform-origin: top left;
       position: absolute;
       will-change: opacity, transform;
+      z-index: 9999;
+
     }
     
     .tooltip-header {
