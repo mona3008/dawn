@@ -591,6 +591,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "0871ac8a-c697-42a6-94db-28ae5890684d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18761085354265__0871ac8a-c697-42a6-94db-28ae5890684d-16824184578750e9f3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Academy (2014)",
+            "heading_size": "h2"
+          }
+        },
+        "template--18761085354265__0871ac8a-c697-42a6-94db-28ae5890684d-16824184578750e9f3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It's every parent's dream, turning their little darlings into geniuses, super-achievers, perfect little children.<br\/><br\/>And if there's a problem, the Academy fixes that, too. It's a simple operation... just a little device...<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18761085354265__0871ac8a-c697-42a6-94db-28ae5890684d-16824184578750e9f3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy a copy",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18761085354265__0871ac8a-c697-42a6-94db-28ae5890684d-16824184578750e9f3-0",
+        "template--18761085354265__0871ac8a-c697-42a6-94db-28ae5890684d-16824184578750e9f3-1",
+        "template--18761085354265__0871ac8a-c697-42a6-94db-28ae5890684d-16824184578750e9f3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/the-academy.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -607,6 +652,7 @@
     "87a7d340-567e-4241-95ba-c4e002303da7",
     "9a12e5b0-ff05-447d-a896-79c1c55e0175",
     "4d7709aa-a5d7-41e9-9ff6-00bfb4f1eeb5",
-    "0ffdf015-0afe-4394-adde-2577f2c081bb"
+    "0ffdf015-0afe-4394-adde-2577f2c081bb",
+    "0871ac8a-c697-42a6-94db-28ae5890684d"
   ]
 }
