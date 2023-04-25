@@ -335,13 +335,7 @@
       initEvents(sectionId);
     });
 
-    function initEvents(sectionId) {
-      var sectionHost = document.querySelector('[data-tooltips="' + sectionId + '"]');
-
-      sectionHost.addEventListener('shopify:block:select', toggleSelect);
-      sectionHost.addEventListener('shopify:block:deselect', toggleSelect); 
-    }
-  function initTooltips(sectionId) {
+function initTooltips(sectionId) {
   var sectionHost = document.querySelector('[data-tooltips="' + sectionId + '"]');
   var tooltipButtons = sectionHost.querySelectorAll('.tooltip-button');
   
@@ -371,6 +365,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var sectionId = document.querySelector('.tooltips-section').getAttribute('data-tooltips');
   initTooltips(sectionId);
 });
+
   
     function toggleSelect(evt) {
       var sectionId = evt.detail.sectionId;
