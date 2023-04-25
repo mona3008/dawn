@@ -310,6 +310,10 @@
             {%- when 'variant_picker' -%}
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
+            
+{% comment %}
+{%- render 'product-form', allow_dynamic_variants: section.settings.enable_dynamic_variants, show_quantity_selector: section.settings.show_quantity_selector, show_variant_labels: section.settings.show_variant_labels, enable_payment_button: section.settings.enable_payment_button, product: product -%}
+{% endcomment %}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
             {%- when 'rating' -%}
               {%- if product.metafields.reviews.rating.value != blank -%}
