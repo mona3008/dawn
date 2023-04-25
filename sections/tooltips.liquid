@@ -339,10 +339,29 @@ function initTooltips(sectionId) {
   var sectionHost = document.querySelector('[data-tooltips="' + sectionId + '"]');
   var tooltipButtons = sectionHost.querySelectorAll('.tooltip-button');
   
-  tooltipButtons.forEach(function(button) {
-    button.addEventListener('mouseenter', showTooltip);
-    button.addEventListener('mouseleave', hideTooltip);
+tooltipButtons.forEach(function(button) {
+  button.addEventListener('mouseenter', function(event) {
+    if (!button.getAttribute('data-tooltip-open')) {
+      showTooltip(event);
+    }
   });
+  button.addEventListener('mouseleave', function(event) {
+    if (!button.getAttribute('data-tooltip-open')) {
+      hideTooltip(event);
+    }
+  });
+  button.addEventListener('click', function(event) {
+    event.preventDefault();
+    var isOpen = button.getAttribute('data-tooltip-open') === 'true';
+    if (isOpen) {
+      hideTooltip(event);
+    } else {
+      showTooltip(event);
+    }
+    button.setAttribute('data-tooltip-open', !isOpen);
+  });
+});
+
   
   function showTooltip(event) {
     var button = event.currentTarget;
