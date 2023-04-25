@@ -293,8 +293,6 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".button--amazon {background-color: #f90; border-color: #f90; color: #fff;}",
-      ".button--amazon:hover {background-color: #e78a00; border-color: #e78a00; color: #fff;}",
       ".list-menu__item {font-size: 14px;}",
       ".header {background-color: black;}",
       "header .header__icons svg * {color: #fff;}",

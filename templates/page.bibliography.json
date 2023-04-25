@@ -477,7 +477,7 @@
         "template--18761085354265__9a12e5b0-ff05-447d-a896-79c1c55e0175-16824184578750e9f3-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Buy a copy",
             "button_link": ""
           }
         }
@@ -489,6 +489,51 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/living-things-1st.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4d7709aa-a5d7-41e9-9ff6-00bfb4f1eeb5": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18761085354265__4d7709aa-a5d7-41e9-9ff6-00bfb4f1eeb5-16824184578750e9f3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hell's Creation (1995)",
+            "heading_size": "h2"
+          }
+        },
+        "template--18761085354265__4d7709aa-a5d7-41e9-9ff6-00bfb4f1eeb5-16824184578750e9f3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>How many are destined to die at the hands of evil?<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18761085354265__4d7709aa-a5d7-41e9-9ff6-00bfb4f1eeb5-16824184578750e9f3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy a copy",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18761085354265__4d7709aa-a5d7-41e9-9ff6-00bfb4f1eeb5-16824184578750e9f3-0",
+        "template--18761085354265__4d7709aa-a5d7-41e9-9ff6-00bfb4f1eeb5-16824184578750e9f3-1",
+        "template--18761085354265__4d7709aa-a5d7-41e9-9ff6-00bfb4f1eeb5-16824184578750e9f3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/HELLSCREATION_ad54e77a-42a7-4032-b1d7-e3151d8a6bfc.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -515,6 +560,7 @@
     "a3e29e86-4fdc-4757-95f3-7d5e634604f0",
     "151b4f0b-0385-4767-b6df-438019c11988",
     "87a7d340-567e-4241-95ba-c4e002303da7",
-    "9a12e5b0-ff05-447d-a896-79c1c55e0175"
+    "9a12e5b0-ff05-447d-a896-79c1c55e0175",
+    "4d7709aa-a5d7-41e9-9ff6-00bfb4f1eeb5"
   ]
 }
