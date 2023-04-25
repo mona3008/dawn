@@ -11,15 +11,23 @@
             "text": "Welcome to our store",
             "link": ""
           }
+        },
+        "08640c7e-3e88-4938-a0fe-726807d90e6b": {
+          "type": "announcement",
+          "settings": {
+            "text": "All brand new",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "08640c7e-3e88-4938-a0fe-726807d90e6b"
       ],
       "settings": {
         "color_scheme": "accent-1",
-        "show_line_separator": true,
-        "auto_rotate": false,
+        "show_line_separator": false,
+        "auto_rotate": true,
         "change_slides_speed": 5
       }
     },
