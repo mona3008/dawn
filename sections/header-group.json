@@ -26,9 +26,9 @@
       ],
       "settings": {
         "color_scheme": "accent-1",
-        "show_line_separator": false,
+        "show_line_separator": true,
         "auto_rotate": true,
-        "change_slides_speed": 5
+        "change_slides_speed": 9
       }
     },
     "header": {
