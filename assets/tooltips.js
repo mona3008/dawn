@@ -67,7 +67,7 @@
   }
   
   function toggle(tooltip) {
-    tooltip.collapsed ? expand(tooltip) : collapse(tooltip);
+    tooltip.collapsed ? expand(tooltip);
   }
 
   function expand(tooltip) {
@@ -76,6 +76,8 @@
     tooltip.overlay.style.setProperty('--start-h', '0px');
     tooltip.trigger.setAttribute('aria-expanded', true);
 
+     tooltip.overlay.addEventListener('animationend', function animationEndFn() {
+      animationReset(tooltip.overlay, animationEndFn);
     });
 
     return tooltip;
