@@ -5,6 +5,7 @@
       "blocks": {
         "template--18758768034073__f374c17b-21f0-4b3b-a1df-a74d062a78e9-1682417198f225518f-2": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Categories",
             "button_link_1": "shopify:\/\/collections",
@@ -35,6 +36,15 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false
+      }
+    },
+    "3c77b8e4-6109-4473-894e-e65d74f0c962": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ".button-container {\n  text-align: center;\n}\n\n.button {\n  background-color: #bb0000;\n  color: #fff;\n  font-family: Futura, sans-serif;\n  font-size: 20px;\n  padding: 10px 20px;\n  border: none;\n  border-radius: 5px;\n  cursor: pointer;\n  text-decoration: none;\n  display: inline-block;\n  margin-right: 10px; \/* add some space between the buttons *\/\n}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "51f1dc85-1552-4a95-bb03-d7c1583928ea": {
@@ -265,26 +275,17 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
-    },
-    "3c77b8e4-6109-4473-894e-e65d74f0c962": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<a href=\"https:\/\/the-john-a-russo-shop.myshopify.com\/collections\/all\" class=\"button\">{{ 'Products' }}<\/a>\n<a href=\"https:\/\/the-john-a-russo-shop.myshopify.com\/collections\" class=\"button\">{{ 'Categories' }}<\/a>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "f374c17b-21f0-4b3b-a1df-a74d062a78e9",
+    "3c77b8e4-6109-4473-894e-e65d74f0c962",
     "51f1dc85-1552-4a95-bb03-d7c1583928ea",
     "rich_text",
     "featured_collection",
     "collage",
     "video",
     "multicolumn",
-    "e0ba859a-828c-4be1-b412-a77762944550",
-    "3c77b8e4-6109-4473-894e-e65d74f0c962"
+    "e0ba859a-828c-4be1-b412-a77762944550"
   ]
 }
