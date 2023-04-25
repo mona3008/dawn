@@ -60,7 +60,7 @@
     }
   }
 
-  function tooltipClick(tooltips, id) {
+  function tooltipMouseover(tooltips, id) {
     var isSelected = partial(idMatch, id);
     tooltips.filter(isSelected).map(toggle);
     tooltips.filter(not(isSelected)).filter(not(isCollapsed)).map(collapse);
