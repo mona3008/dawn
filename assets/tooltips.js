@@ -76,8 +76,6 @@
     tooltip.overlay.style.setProperty('--start-h', '0px');
     tooltip.trigger.setAttribute('aria-expanded', true);
 
-     tooltip.overlay.addEventListener('animationend', function animationEndFn() {
-      animationReset(tooltip.overlay, animationEndFn);
     });
 
     return tooltip;
