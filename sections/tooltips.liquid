@@ -1,16 +1,22 @@
 {% comment %}
   The following code uses the `image_with_tooltips` section type to display
-  an image with tooltips that appear on hover.
+  an image with tooltips that appear on hover. Tooltips can be positioned
+  anywhere on the image and can be linked to product collections.
 {% endcomment %}
 
 {% assign image_url = section.settings.image | img_url: 'master' %}
 {% assign tooltips = section.settings.tooltips | split: ',' %}
+{% assign tooltip_positions = section.settings.tooltip_positions | split: ',' %}
+{% assign tooltip_links = section.settings.tooltip_links | split: ',' %}
 
 <div class="image-with-tooltips">
   <div class="image-wrapper">
     <img src="{{ image_url }}" alt="{{ section.settings.alt_text }}">
     {% for tooltip in tooltips %}
-      <span class="tooltip" data-tooltip="{{ tooltip }}"></span>
+      {% assign index = forloop.index0 %}
+      <a href="{{ tooltip_links[index] }}" class="tooltip" style="left: {{ tooltip_positions[index] }}">
+        {{ tooltip }}
+      </a>
     {% endfor %}
   </div>
 </div>
@@ -33,10 +39,22 @@
       "info": "Add alternative text for the image."
     },
     {
-      "type": "text",
+      "type": "textarea",
       "id": "tooltips",
       "label": "Tooltips",
-      "info": "Add comma-separated tooltips to display on hover."
+      "info": "Add tooltips to display on hover, separated by commas."
+    },
+    {
+      "type": "textarea",
+      "id": "tooltip_links",
+      "label": "Tooltip Links",
+      "info": "Add links to product collections to associate with each tooltip, separated by commas. The number of links should match the number of tooltips."
+    },
+    {
+      "type": "textarea",
+      "id": "tooltip_positions",
+      "label": "Tooltip Positions",
+      "info": "Add positions for each tooltip on the image, separated by commas. The values should be in the format `left: X%; top: Y%;` where X and Y are the percentages of the image width and height, respectively. The number of positions should match the number of tooltips."
     }
   ]
 }
@@ -56,29 +74,19 @@
     display: none;
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-  }
-
-  .image-with-tooltips .tooltip:hover::before {
-    display: block;
-  }
-
-  .image-with-tooltips .tooltip::before {
-    content: attr(data-tooltip);
-    display: none;
-    position: absolute;
-    top: -2em;
-    left: 50%;
-    transform: translateX(-50%);
+    font-size: 0.8em;
     padding: 0.5em;
     border-radius: 0.5em;
     background-color: black;
     color: white;
-    font-size: 1em;
-    white-space: nowrap;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .image-with-tooltips .tooltip:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
   }
 {% endraw %}
 {% endstylesheet %}
