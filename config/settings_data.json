@@ -293,7 +293,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".list-menu__item {font-size: 14px; padding-left: 10px; padding-right: 40px;}",
+      ".list-menu__item {font-size: 16px; padding-left: 40px; padding-right: 40px;}",
       ".header {background-color: black;}",
       "header .header__icons svg * {color: #fff;}",
       "#Details-menu-drawer-container .header__icon svg path {fill: #fff;}"
