@@ -1,29 +1,5 @@
 {
   "sections": {
-    "379d6c5e-d5b2-42ba-bd9c-d207c55519e7": {
-      "type": "tooltips",
-      "blocks": {
-        "1a75b88b-3971-4ccf-a893-395a1d31d7d9": {
-          "type": "Tooltip",
-          "settings": {
-            "title": "Tooltip title",
-            "content": "I am a tooltip, I provide additional explanatory content and showcase product featurecs.",
-            "top": 50,
-            "left": 50
-          }
-        }
-      },
-      "block_order": [
-        "1a75b88b-3971-4ccf-a893-395a1d31d7d9"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/jack-new-banner-test.jpg",
-        "tooltip_color": "#ffffff",
-        "tooltip_background_color": "#64cbdf",
-        "tooltip_focus_color": "#ff0000",
-        "breakpoint": "768"
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "disabled": true,
@@ -238,7 +214,6 @@
     }
   },
   "order": [
-    "379d6c5e-d5b2-42ba-bd9c-d207c55519e7",
     "image_banner",
     "rich_text",
     "featured_collection",
