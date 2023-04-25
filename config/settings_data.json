@@ -293,8 +293,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".list-menu__item {font-size: 18px;}",
-      ".header {background-color: black;}"
+      ".list-menu__item {font-size: 16px; font-color: white;}",
+      ".header {background-color: black; }"
     ]
   }
 }
