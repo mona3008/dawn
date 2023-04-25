@@ -6,8 +6,8 @@
         "template--18758768034073__379d6c5e-d5b2-42ba-bd9c-d207c55519e7-1682400149b7de6d41-0": {
           "type": "Tooltip",
           "settings": {
-            "title": "Tooltip title",
-            "content": "I am a tooltip, I provide additional explanatory content and showcase product features.",
+            "title": "Shop Night Of The Living Dead",
+            "content": "",
             "top": 64,
             "left": 36
           }
@@ -19,7 +19,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/jack-new-banner-test.jpg",
         "tooltip_color": "#ffffff",
-        "tooltip_background_color": "#64cbdf",
+        "tooltip_background_color": "rgba(0,0,0,0)",
         "tooltip_focus_color": "#ff0000",
         "breakpoint": "768"
       }
