@@ -18,9 +18,9 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/jack-new-banner-test.jpg",
-        "tooltip_color": "#ffffff",
+        "tooltip_color": "#dd1d1d",
         "tooltip_background_color": "rgba(0,0,0,0)",
-        "tooltip_focus_color": "#ff0000",
+        "tooltip_focus_color": "rgba(0,0,0,0)",
         "breakpoint": "768"
       }
     },
