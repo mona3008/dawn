@@ -34,8 +34,8 @@
     var triggers = pluck(tooltips, 'trigger');
 
     triggers.map(function(element) {
-      element.addEventListener('mouseover', function triggerMouseover() {
-        tooltipMouseover(tooltips, element.value);
+      element.addEventListener('click', function triggerClick() {
+        tooltipClick(tooltips, element.value);
       });
     });
   }
@@ -60,7 +60,7 @@
     }
   }
 
-  function tooltipMouseover(tooltips, id) {
+  function tooltipClick(tooltips, id) {
     var isSelected = partial(idMatch, id);
     tooltips.filter(isSelected).map(toggle);
     tooltips.filter(not(isSelected)).filter(not(isCollapsed)).map(collapse);
