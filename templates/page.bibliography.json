@@ -231,6 +231,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "56115994-e680-4529-bbe2-669cc1f06509": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18761085354265__56115994-e680-4529-bbe2-669cc1f06509-16824184578750e9f3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em><strong>Bloodsisters<\/strong><\/em> (1982)",
+            "heading_size": "h2"
+          }
+        },
+        "template--18761085354265__56115994-e680-4529-bbe2-669cc1f06509-16824184578750e9f3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>They were sworn to evil...and each other.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18761085354265__56115994-e680-4529-bbe2-669cc1f06509-16824184578750e9f3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy a copy",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18761085354265__56115994-e680-4529-bbe2-669cc1f06509-16824184578750e9f3-0",
+        "template--18761085354265__56115994-e680-4529-bbe2-669cc1f06509-16824184578750e9f3-1",
+        "template--18761085354265__56115994-e680-4529-bbe2-669cc1f06509-16824184578750e9f3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bloodsisters-1982.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -239,6 +284,7 @@
     "82739cef-5395-48d6-9b01-901b194caef8",
     "bc18aea5-e070-4668-9478-712b3e5b059e",
     "1aa67580-a858-4768-8be0-1273e0164654",
-    "faa79c68-29d0-4e88-abfb-6a4bb23dfdce"
+    "faa79c68-29d0-4e88-abfb-6a4bb23dfdce",
+    "56115994-e680-4529-bbe2-669cc1f06509"
   ]
 }
