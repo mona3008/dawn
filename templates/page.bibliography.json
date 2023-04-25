@@ -13,14 +13,14 @@
         "template--18761085354265__2c589464-2c65-46ef-97df-47ad76b6b8d3-168241509067800fdd-0": {
           "type": "heading",
           "settings": {
-            "heading": "<em><strong>Night of the Living Dead <\/strong><\/em>(1974)",
+            "heading": "Night of the Living Dead<em><strong> <\/strong><\/em>(1974)",
             "heading_size": "h2"
           }
         },
         "template--18761085354265__2c589464-2c65-46ef-97df-47ad76b6b8d3-168241509067800fdd-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Novelization of the Romero\/Russo screenplay, written and published several years after the film's release.<\/p>",
+            "text": "<p>Written and published (initially by Warner Books) six years after the film's release.<\/p>",
             "text_style": "body"
           }
         },
@@ -58,7 +58,7 @@
         "template--18761085354265__82739cef-5395-48d6-9b01-901b194caef8-168241509067800fdd-0": {
           "type": "heading",
           "settings": {
-            "heading": "<em><strong>Return of the Living Dead <\/strong><\/em>(1979)",
+            "heading": "Return of the Living Dead<em><strong> <\/strong><\/em>(1979)",
             "heading_size": "h2"
           }
         },
@@ -103,7 +103,7 @@
         "template--18761085354265__bc18aea5-e070-4668-9478-712b3e5b059e-16824184578750e9f3-0": {
           "type": "heading",
           "settings": {
-            "heading": "<em><strong>The Majorettes <\/strong><\/em>",
+            "heading": "The Majorettes (1979)",
             "heading_size": "h2"
           }
         },
@@ -148,7 +148,7 @@
         "template--18761085354265__1aa67580-a858-4768-8be0-1273e0164654-16824184578750e9f3-0": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "MIDNIGHT (1980)",
             "heading_size": "h2"
           }
         },
@@ -193,7 +193,7 @@
         "template--18761085354265__faa79c68-29d0-4e88-abfb-6a4bb23dfdce-16824184578750e9f3-0": {
           "type": "heading",
           "settings": {
-            "heading": "<em><strong>Limb to Limb<\/strong><\/em> (1981)",
+            "heading": "Limb to Limb (1981)",
             "heading_size": "h2"
           }
         },
@@ -238,7 +238,7 @@
         "template--18761085354265__56115994-e680-4529-bbe2-669cc1f06509-16824184578750e9f3-0": {
           "type": "heading",
           "settings": {
-            "heading": "<em><strong>Bloodsisters<\/strong><\/em> (1982)",
+            "heading": "Bloodsisters (1982)",
             "heading_size": "h2"
           }
         },
@@ -283,7 +283,7 @@
         "template--18761085354265__b16c1aa6-29af-496f-b225-46c7d7ed793e-16824184578750e9f3-0": {
           "type": "heading",
           "settings": {
-            "heading": "<em><strong>The Awakening<\/strong><\/em> (1983)",
+            "heading": "The Awakening (1983)",
             "heading_size": "h2"
           }
         },
@@ -328,7 +328,7 @@
         "template--18761085354265__a3e29e86-4fdc-4757-95f3-7d5e634604f0-16824184578750e9f3-0": {
           "type": "heading",
           "settings": {
-            "heading": "<em><strong>Day Care<\/strong><\/em> (1985)",
+            "heading": "Day Care (1985)",
             "heading_size": "h2"
           }
         },
@@ -373,14 +373,14 @@
         "template--18761085354265__151b4f0b-0385-4767-b6df-438019c11988-16824184578750e9f3-0": {
           "type": "heading",
           "settings": {
-            "heading": "<em><strong>Inhuman<\/strong><\/em> (1986)",
+            "heading": "Inhuman (1986)",
             "heading_size": "h2"
           }
         },
         "template--18761085354265__151b4f0b-0385-4767-b6df-438019c11988-16824184578750e9f3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>They were the walking dead, on a ruthless hunt for living blood.<\/p>",
             "text_style": "body"
           }
         },
@@ -411,6 +411,95 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "87a7d340-567e-4241-95ba-c4e002303da7": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18761085354265__87a7d340-567e-4241-95ba-c4e002303da7-16824184578750e9f3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Voodoo Dawn (1987)",
+            "heading_size": "h2"
+          }
+        },
+        "template--18761085354265__87a7d340-567e-4241-95ba-c4e002303da7-16824184578750e9f3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Seven bodies have washed ashore in Florida, cannibalized and dismembered, bodies used in an occult ritual. Face the unspeakable terror...<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18761085354265__87a7d340-567e-4241-95ba-c4e002303da7-16824184578750e9f3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy a copy",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18761085354265__87a7d340-567e-4241-95ba-c4e002303da7-16824184578750e9f3-0",
+        "template--18761085354265__87a7d340-567e-4241-95ba-c4e002303da7-16824184578750e9f3-1",
+        "template--18761085354265__87a7d340-567e-4241-95ba-c4e002303da7-16824184578750e9f3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/voodoo-dawn-2.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9a12e5b0-ff05-447d-a896-79c1c55e0175": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18761085354265__9a12e5b0-ff05-447d-a896-79c1c55e0175-16824184578750e9f3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--18761085354265__9a12e5b0-ff05-447d-a896-79c1c55e0175-16824184578750e9f3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18761085354265__9a12e5b0-ff05-447d-a896-79c1c55e0175-16824184578750e9f3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18761085354265__9a12e5b0-ff05-447d-a896-79c1c55e0175-16824184578750e9f3-0",
+        "template--18761085354265__9a12e5b0-ff05-447d-a896-79c1c55e0175-16824184578750e9f3-1",
+        "template--18761085354265__9a12e5b0-ff05-447d-a896-79c1c55e0175-16824184578750e9f3-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -423,6 +512,8 @@
     "56115994-e680-4529-bbe2-669cc1f06509",
     "b16c1aa6-29af-496f-b225-46c7d7ed793e",
     "a3e29e86-4fdc-4757-95f3-7d5e634604f0",
-    "151b4f0b-0385-4767-b6df-438019c11988"
+    "151b4f0b-0385-4767-b6df-438019c11988",
+    "87a7d340-567e-4241-95ba-c4e002303da7",
+    "9a12e5b0-ff05-447d-a896-79c1c55e0175"
   ]
 }
