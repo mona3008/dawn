@@ -3,7 +3,7 @@
     "logo": "shopify:\/\/shop_images\/logo_a8f9adc0-6922-4d0a-96b2-7d296bfa6996.svg",
     "logo_width": 50,
     "colors_solid_button_labels": "#bb0000",
-    "colors_accent_1": "#fff",
+    "colors_accent_1": "#ffffff",
     "gradient_accent_1": "",
     "colors_accent_2": "#ffffff",
     "gradient_accent_2": "",
@@ -11,7 +11,7 @@
     "colors_outline_button_labels": "#fff",
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
-    "colors_background_2": "#121212",
+    "colors_background_2": "#000000",
     "gradient_background_2": "",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
@@ -296,7 +296,7 @@
       ".list-menu__item {font-size: 16px;}",
       ".header {background-color: black;}",
       "header .header__icons svg * {color: #fff;}",
-      " #Details-menu-drawer-container .header__icon svg path{fill: #fff;}"
+      "#Details-menu-drawer-container .header__icon svg path {fill: #fff;}"
     ]
   }
 }
