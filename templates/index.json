@@ -2,26 +2,12 @@
   "sections": {
     "379d6c5e-d5b2-42ba-bd9c-d207c55519e7": {
       "type": "tooltips",
-      "blocks": {
-        "template--18758768034073__379d6c5e-d5b2-42ba-bd9c-d207c55519e7-1682400149b7de6d41-0": {
-          "type": "Tooltip",
-          "settings": {
-            "title": "Shop Night Of The Living Dead",
-            "content": "",
-            "top": 64,
-            "left": 36
-          }
-        }
-      },
-      "block_order": [
-        "template--18758768034073__379d6c5e-d5b2-42ba-bd9c-d207c55519e7-1682400149b7de6d41-0"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/jack-new-banner-test.jpg",
-        "tooltip_color": "#dd1d1d",
-        "tooltip_background_color": "rgba(0,0,0,0)",
-        "tooltip_focus_color": "rgba(0,0,0,0)",
-        "breakpoint": "768"
+        "alt_text": "",
+        "tooltips": "Show Movie1",
+        "tooltip_links": "www.google.com",
+        "tooltip_positions": "`left: 50%; top: 20%;`"
       }
     },
     "image_banner": {
