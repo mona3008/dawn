@@ -285,6 +285,7 @@
   },
   "platform_customizations": {
     "custom_css": [
+      ".list-menu__item {font-size: 18px;}",
       ".header {background-color: black;}"
     ]
   }
