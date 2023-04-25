@@ -18,11 +18,16 @@
       "block_order": [
         "template--18758768034073__f374c17b-21f0-4b3b-a1df-a74d062a78e9-1682417198f225518f-2"
       ],
+      "custom_css": [
+        ".banner__content .button {background: #ae0303; color: #fff;}",
+        ".banner__content .button::after {display: none !important;}",
+        ".banner__content .button:hover {background: black; color: white;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/jack-new-banner-2.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "top-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
