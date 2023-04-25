@@ -67,7 +67,7 @@
   }
   
   function toggle(tooltip) {
-    tooltip.collapsed ? expand(tooltip);
+    tooltip.collapsed ? expand(tooltip) : collapse(tooltip);
   }
 
   function expand(tooltip) {
