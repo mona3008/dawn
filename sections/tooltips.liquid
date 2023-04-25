@@ -54,14 +54,19 @@
     line-height: {{ button_width_small }}px;
     width: {{ button_width_small }}px;
   }
+  .tooltip-index {
+  background-color: {{ section.settings.tooltip_background_color }};
+  color: {{ section.settings.tooltip_color }};
+}
 
-  .tooltip-overlay {
-    background: #fff;
-    opacity: 1;
-    overflow: hidden;
-    will-change: height;
+.tooltip-overlay {
+  background: #fff;
+  opacity: 1;
+  overflow: hidden;
+  will-change: height;
+  color: {{ section.settings.tooltip_color }}; /* Add this line */
+}
 
-  }
   
   .tooltip-header {
     display: none;
