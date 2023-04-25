@@ -34,8 +34,8 @@
     var triggers = pluck(tooltips, 'trigger');
 
     triggers.map(function(element) {
-      element.addEventListener('click', function triggerClick() {
-        tooltipClick(tooltips, element.value);
+      element.addEventListener('mouseover', function triggerMouseover() {
+        tooltipMouseover(tooltips, element.value);
       });
     });
   }
