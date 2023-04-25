@@ -53,9 +53,9 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
+            "heading": "Product Details",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.product_details | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -80,7 +80,7 @@
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Care Instructions",
+            "heading": "",
             "icon": "heart",
             "content": "",
             "page": ""
