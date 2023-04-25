@@ -25,9 +25,9 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/jack-new-banner-2.jpg",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 20,
         "image_height": "adapt",
-        "desktop_content_position": "top-center",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
@@ -265,6 +265,15 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "3c77b8e4-6109-4473-894e-e65d74f0c962": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<a href=\"https:\/\/the-john-a-russo-shop.myshopify.com\/collections\/all\" class=\"button\">{{ 'Products' }}<\/a>\n<a href=\"https:\/\/the-john-a-russo-shop.myshopify.com\/collections\" class=\"button\">{{ 'Categories' }}<\/a>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -275,6 +284,7 @@
     "collage",
     "video",
     "multicolumn",
-    "e0ba859a-828c-4be1-b412-a77762944550"
+    "e0ba859a-828c-4be1-b412-a77762944550",
+    "3c77b8e4-6109-4473-894e-e65d74f0c962"
   ]
 }
