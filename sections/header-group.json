@@ -53,9 +53,8 @@
     },
     "76ddb0b1-cca4-4bf6-b7ac-996aaa14c5bb": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
-        "custom_liquid": "<div class=\"grid grid--1-col grid--1-col-tablet\">\n    <div class=\"grid__item right\">\n      {% if collection.previous_product %}\n        {{ '<< Previous' | link_to: collection.previous_product.url, 'Previous product' }}\n      {% endif %}\n            {{ '|' }}\n      {% if collection.next_product %}\n        {{ 'Next >>' | link_to: collection.next_product.url, 'Next product' }}\n      {% endif %}\n      \n      <\/div>\n  <\/div>",
+        "custom_liquid": "{% if section.settings.previous_product or section.settings.next_product %}\n  <div class=\"previous-next-products\">\n    {% if section.settings.previous_product %}\n      <a href=\"{{ section.settings.previous_product.url }}\" class=\"previous-product-link\">\n        Previous Product: {{ section.settings.previous_product.title }}\n      <\/a>\n    {% endif %}\n    {% if section.settings.next_product %}\n      <a href=\"{{ section.settings.next_product.url }}\" class=\"next-product-link\">\n        Next Product: {{ section.settings.next_product.title }}\n      <\/a>\n    {% endif %}\n  <\/div>\n{% endif %}",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
