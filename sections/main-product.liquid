@@ -66,18 +66,23 @@
         data-url="{{ product.url }}"
         class="product__info-container{% if section.settings.enable_sticky_info %} product__column-sticky{% endif %}"
       >
-        {% if product.previous_product %}
-  <a href="{{ product.previous_product.url }}" class="previous-product">
-    &#8592; {{ product.previous_product.title }}
-  </a>
-{% endif %}
-{% if product.next_product %}
-  <a href="{{ product.next_product.url }}" class="next-product">
-    {{ product.next_product.title }} &#8594;
-  </a>
-{% endif %}
-
+        
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
+{% if product.previous_product or product.next_product %}
+  <div class="product-navigation" style="font-size: 16px; color: black; margin-bottom: 20px;">
+    {% if product.previous_product %}
+      <a href="{{ product.previous_product.url }}" class="product-navigation__link product-navigation__previous" style="float: left;">
+        &laquo; {{ product.previous_product.title }}
+      </a>
+    {% endif %}
+    {% if product.next_product %}
+      <a href="{{ product.next_product.url }}" class="product-navigation__link product-navigation__next" style="float: right;">
+        {{ product.next_product.title }} &raquo;
+      </a>
+    {% endif %}
+  </div>
+  <div style="clear: both;"></div>
+{% endif %}
 
         {%- for block in section.blocks -%}
           {%- case block.type -%}
