@@ -204,7 +204,7 @@
     "7a71af63-de98-4fdf-88cb-41d0e669ccc2": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <style>\n      .separator {\n        height: 10%;\n        width: 1300px;\n        background-color: black;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"separator\"><\/div>\n  <\/body>\n<\/html>",
+        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <style>\n      .separator {\n        height: 2%;\n        width: 100%;\n        background-color: black;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div style=\"height: 2px;\">\n      <div class=\"separator\"><\/div>\n    <\/div>\n  <\/body>\n<\/html>",
         "color_scheme": "background-2",
         "padding_top": 40,
         "padding_bottom": 52
