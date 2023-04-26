@@ -367,6 +367,51 @@
         "padding_bottom": 36
       }
     },
+    "9f27999d-5438-420b-b679-26661463ee66": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18761085354265__9f27999d-5438-420b-b679-26661463ee66-16824184578750e9f3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Complete Night of the Living Dead Filmbook (1985)",
+            "heading_size": "h2"
+          }
+        },
+        "template--18761085354265__9f27999d-5438-420b-b679-26661463ee66-16824184578750e9f3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This first-person, highly detailed retrospective of the 1967 production of <em><strong>Night of the Living Dead<\/strong><\/em> is unparalleled for its no-nonsense blow-by-blow account from the horse's mouth.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18761085354265__9f27999d-5438-420b-b679-26661463ee66-16824184578750e9f3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Coming to get you",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18761085354265__9f27999d-5438-420b-b679-26661463ee66-16824184578750e9f3-0",
+        "template--18761085354265__9f27999d-5438-420b-b679-26661463ee66-16824184578750e9f3-1",
+        "template--18761085354265__9f27999d-5438-420b-b679-26661463ee66-16824184578750e9f3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/night-filmbook.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "151b4f0b-0385-4767-b6df-438019c11988": {
       "type": "image-with-text",
       "blocks": {
@@ -772,38 +817,38 @@
         "padding_bottom": 36
       }
     },
-    "9f27999d-5438-420b-b679-26661463ee66": {
+    "89010534-3441-4acd-ac6d-206fe913b083": {
       "type": "image-with-text",
       "blocks": {
-        "template--18761085354265__9f27999d-5438-420b-b679-26661463ee66-16824184578750e9f3-0": {
+        "template--18761085354265__89010534-3441-4acd-ac6d-206fe913b083-16824184578750e9f3-0": {
           "type": "heading",
           "settings": {
-            "heading": "The Complete Night of the Living Dead Filmbook (1985)",
+            "heading": "Making Movies (1989)",
             "heading_size": "h2"
           }
         },
-        "template--18761085354265__9f27999d-5438-420b-b679-26661463ee66-16824184578750e9f3-1": {
+        "template--18761085354265__89010534-3441-4acd-ac6d-206fe913b083-16824184578750e9f3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>This first-person, highly detailed retrospective of the 1967 production of <em><strong>Night of the Living Dead<\/strong><\/em> is unparalleled for its no-nonsense blow-by-blow account from the horse's mouth.<\/p>",
+            "text": "<p>Veteran independent filmmaker Russo outlines the moviemaking process step by step, from developing an idea to selling the finished product, including budgeting, pre- and post-production, raising money, technical aspects of shooting and editing, and dealing with agents, lawyers, and distributors.<\/p><p>Pragmatic, useful, down-to-earth, learn-from-my-mistakes (and successes) advice, interspersed with enlightening interviews with other successful indie filmmakers like George Romero, Oliver Stone, Sam Raimi, Tobe Hooper, and Tom Savini.<\/p>",
             "text_style": "body"
           }
         },
-        "template--18761085354265__9f27999d-5438-420b-b679-26661463ee66-16824184578750e9f3-2": {
+        "template--18761085354265__89010534-3441-4acd-ac6d-206fe913b083-16824184578750e9f3-2": {
           "type": "button",
           "settings": {
-            "button_label": "Coming to get you",
+            "button_label": "Go Make Movies",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "template--18761085354265__9f27999d-5438-420b-b679-26661463ee66-16824184578750e9f3-0",
-        "template--18761085354265__9f27999d-5438-420b-b679-26661463ee66-16824184578750e9f3-1",
-        "template--18761085354265__9f27999d-5438-420b-b679-26661463ee66-16824184578750e9f3-2"
+        "template--18761085354265__89010534-3441-4acd-ac6d-206fe913b083-16824184578750e9f3-0",
+        "template--18761085354265__89010534-3441-4acd-ac6d-206fe913b083-16824184578750e9f3-1",
+        "template--18761085354265__89010534-3441-4acd-ac6d-206fe913b083-16824184578750e9f3-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/night-filmbook.png",
+        "image": "shopify:\/\/shop_images\/making-movies.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -828,6 +873,7 @@
     "56115994-e680-4529-bbe2-669cc1f06509",
     "b16c1aa6-29af-496f-b225-46c7d7ed793e",
     "a3e29e86-4fdc-4757-95f3-7d5e634604f0",
+    "9f27999d-5438-420b-b679-26661463ee66",
     "151b4f0b-0385-4767-b6df-438019c11988",
     "87a7d340-567e-4241-95ba-c4e002303da7",
     "9a12e5b0-ff05-447d-a896-79c1c55e0175",
@@ -837,6 +883,6 @@
     "880962b6-3261-4612-a7a1-f5eac139e3e3",
     "a62c1492-12da-4053-b7b2-c75dfcc1d530",
     "21e595ce-8ff9-499d-82bf-def001a636d4",
-    "9f27999d-5438-420b-b679-26661463ee66"
+    "89010534-3441-4acd-ac6d-206fe913b083"
   ]
 }
