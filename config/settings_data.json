@@ -296,7 +296,11 @@
       ".list-menu__item {font-size: 16px; margin-left: 15px;}",
       ".header {background-color: black;}",
       "header .header__icons svg * {color: #fff;}",
-      "#Details-menu-drawer-container .header__icon svg path {fill: #fff;}"
+      "#Details-menu-drawer-container .header__icon svg path {fill: #fff;}",
+      ".breadcrumb {margin-bottom: 20px; font-size: 14px; color: #666;}",
+      ".breadcrumb__link {color: #000; text-decoration: none;}",
+      ".breadcrumb__separator {margin: 0 5px;}",
+      ".breadcrumb__text {font-weight: bold; font-color: black;}"
     ]
   }
 }
