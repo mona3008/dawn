@@ -1,12 +1,17 @@
+{% assign current_collection = collection %}
+{% if product and current_collection == nil %}
+  {% assign current_collection = product.collections.first %}
+{% endif %}
+
 <nav class="breadcrumb" aria-label="Breadcrumb">
   <ol class="breadcrumb__list">
     <li class="breadcrumb__item">
       <a href="/" class="breadcrumb__link">{{ 'general.breadcrumbs.home' | t }}</a>
     </li>
-    {% if collection %}
+    {% if current_collection %}
       <li class="breadcrumb__item">
         <span class="breadcrumb__separator"> &gt; </span>
-        <a href="{{ collection.url }}" class="breadcrumb__link">{{ collection.title }}</a>
+        <a href="{{ current_collection.url }}" class="breadcrumb__link">{{ current_collection.title }}</a>
       </li>
     {% endif %}
     {% if product %}
