@@ -55,14 +55,14 @@
       "type": "custom-liquid",
       "custom_css": [
         ".breadcrumb {display: flex; align-items: center;}",
-        ".breadcrumb__list {display: flex; list-style: none; margin: 0; padding: 20;}",
+        ".breadcrumb__list {display: flex; list-style: none; margin: 0; padding: 0;}",
         ".breadcrumb__item {display: flex; align-items: center;}",
         ".breadcrumb__link {text-decoration: none;}",
         ".breadcrumb__link:hover {text-decoration: underline;}",
         ".breadcrumb__separator {margin: 0 0.5em;}"
       ],
       "settings": {
-        "custom_liquid": "<nav class=\"breadcrumb\" aria-label=\"Breadcrumb\">\n  <ol class=\"breadcrumb__list\">\n    <li class=\"breadcrumb__item\">\n      <a href=\"\/\" class=\"breadcrumb__link\">{{ 'general.breadcrumbs.home' | t }}<\/a>\n      <span class=\"breadcrumb__separator\">&rarr;<\/span>\n    <\/li>\n    {% if collection %}\n      <li class=\"breadcrumb__item\">\n        <a href=\"{{ collection.url }}\" class=\"breadcrumb__link\">{{ collection.title }}<\/a>\n        <span class=\"breadcrumb__separator\">&rarr;<\/span>\n      <\/li>\n    {% endif %}\n    {% if product %}\n      <li class=\"breadcrumb__item\">\n        <span class=\"breadcrumb__link\" aria-current=\"page\">{{ product.title }}<\/span>\n      <\/li>\n    {% endif %}\n  <\/ol>\n<\/nav>",
+        "custom_liquid": "<nav class=\"breadcrumb\" aria-label=\"Breadcrumb\">\n  <ol class=\"breadcrumb__list\">\n    <li class=\"breadcrumb__item\">\n      <a href=\"\/\" class=\"breadcrumb__link\">{{ 'general.breadcrumbs.home' | t }}<\/a>\n      <span class=\"breadcrumb__separator\">&gt;<\/span>\n    <\/li>\n    {% if collection %}\n      <li class=\"breadcrumb__item\">\n        <a href=\"{{ collection.url }}\" class=\"breadcrumb__link\">{{ collection.title }}<\/a>\n        <span class=\"breadcrumb__separator\">&gt;<\/span>\n      <\/li>\n    {% endif %}\n    {% if product %}\n      <li class=\"breadcrumb__item\">\n        <span class=\"breadcrumb__link\" aria-current=\"page\">{{ product.title }}<\/span>\n      <\/li>\n    {% endif %}\n  <\/ol>\n<\/nav>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
