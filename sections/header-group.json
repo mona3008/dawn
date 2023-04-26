@@ -55,7 +55,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "<div class=\"grid grid--1-col grid--1-col-tablet\">\n    <div class=\"grid__item right\">\n      {% if collection.previous_product %}\n        {{ '<< Previous' | link_to: collection.previous_product.url, 'Previous product' }}\n      {% endif %}\n            {{ '|' }}\n      {% if collection.next_product %}\n        {{ 'Next >>' | link_to: collection.next_product.url, 'Next product' }}\n      {% endif %}\n      \n      <\/div>\n  <\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
