@@ -636,6 +636,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "880962b6-3261-4612-a7a1-f5eac139e3e3": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18761085354265__880962b6-3261-4612-a7a1-f5eac139e3e3-16824184578750e9f3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Booby Hatch (2014)",
+            "heading_size": "h2"
+          }
+        },
+        "template--18761085354265__880962b6-3261-4612-a7a1-f5eac139e3e3-16824184578750e9f3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The long-awaited novelization to the 1971 sex-bomb classic!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18761085354265__880962b6-3261-4612-a7a1-f5eac139e3e3-16824184578750e9f3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy a copy",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18761085354265__880962b6-3261-4612-a7a1-f5eac139e3e3-16824184578750e9f3-0",
+        "template--18761085354265__880962b6-3261-4612-a7a1-f5eac139e3e3-16824184578750e9f3-1",
+        "template--18761085354265__880962b6-3261-4612-a7a1-f5eac139e3e3-16824184578750e9f3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/booby-book.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -653,6 +698,7 @@
     "9a12e5b0-ff05-447d-a896-79c1c55e0175",
     "4d7709aa-a5d7-41e9-9ff6-00bfb4f1eeb5",
     "0ffdf015-0afe-4394-adde-2577f2c081bb",
-    "0871ac8a-c697-42a6-94db-28ae5890684d"
+    "0871ac8a-c697-42a6-94db-28ae5890684d",
+    "880962b6-3261-4612-a7a1-f5eac139e3e3"
   ]
 }
