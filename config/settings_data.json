@@ -124,6 +124,7 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+    "checkout_header_image": "shopify:\/\/shop_images\/blackground.png",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -293,6 +294,7 @@
   },
   "platform_customizations": {
     "custom_css": [
+      ".btn--secondary-accent:not([disabled]):hover,.btn--secondary-accent:focus {background-color: #e1e1e1; color: black !important;}",
       ".list-menu__item {font-size: 14px;}",
       ".header {background-color: black;}",
       "header .header__icons svg * {color: #fff;}",
