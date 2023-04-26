@@ -2,247 +2,138 @@
   "sections": {
     "main": {
       "type": "page",
+      "disabled": true,
       "settings": {
+        "page": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "aa1c3554-b1b7-4781-95f4-ea919d5a20f1": {
       "type": "half-media-text",
       "settings": {
-        "half_image": "shopify:\/\/shop_images\/notld-1968-a.png",
-        "half_image_p": "1",
-        "half_video": "",
-        "half_title": "Night of the living dead (1968)",
-        "half_title_tag": "h3",
-        "half_text": "<h5>co-written by george romero & john russo<\/h5>",
-        "half_b_text": "More info",
-        "half_b_url": "https:\/\/image-ten.com",
-        "half_text_color": "#000000",
-        "half_bg_color": "#ffffff"
       }
     },
     "7e749a9f-4b5c-4ae9-b62f-abe15a017c75": {
       "type": "half-media-text",
       "settings": {
-        "half_image": "shopify:\/\/shop_images\/theres-always-vanilla.png",
-        "half_image_p": "1",
-        "half_video": "",
-        "half_title": "There's always vanilla (1971)",
-        "half_title_tag": "h3",
-        "half_text": "<h5>Re-released as <em>The Affair<\/em>.<br\/>Filmed as <em>At Play With the Angels<\/em>.<\/h5>",
-        "half_b_text": "more info",
-        "half_b_url": "",
-        "half_text_color": "#000000",
-        "half_bg_color": "#f2f2f2"
       }
     },
     "b4bb3907-3948-4778-80c4-b900277cabf6": {
       "type": "half-media-text",
       "settings": {
-        "half_image": "shopify:\/\/shop_images\/devil-and-sam.png",
-        "half_image_p": "1",
-        "half_video": "",
-        "half_title": "The Devil and Sam Silverstein (1976)",
-        "half_title_tag": "h3",
-        "half_text": "<h5>Also exhibited as <em><strong>My Wife Cut Me Off 40 Years Ago.<\/strong><\/em><\/h5>",
-        "half_b_text": "more info",
-        "half_b_url": "",
-        "half_text_color": "#000000",
-        "half_bg_color": "#ffffff"
       }
     },
     "f860a278-57bb-476b-942e-6ab435def2f3": {
       "type": "half-media-text",
       "settings": {
-        "half_image": "shopify:\/\/shop_images\/booby-hatch.png",
-        "half_image_p": "1",
-        "half_video": "",
-        "half_title": "The Booby Hatch (1976)",
-        "half_title_tag": "h3",
-        "half_text": "<p>Re-released as <em><strong>The Liberation of Cherry Jankowski<\/strong><\/em>.<\/p>",
-        "half_b_text": "more info",
-        "half_b_url": "",
-        "half_text_color": "#000000",
-        "half_bg_color": "#f2f2f2"
       }
     },
     "54734407-8ea8-4d11-a5e4-7cec23550137": {
       "type": "half-media-text",
       "settings": {
-        "half_image": "shopify:\/\/shop_images\/midnight-poster.png",
-        "half_image_p": "1",
-        "half_video": "",
-        "half_title": "MIDNIGHT (1982)",
-        "half_title_tag": "h3",
-        "half_text": "",
-        "half_b_text": "More Info",
-        "half_b_url": "shopify:\/\/collections\/all",
-        "half_text_color": "#000000",
-        "half_bg_color": "#ffffff"
       }
     },
     "9dcda4e9-167c-40a5-8df2-6f89c67b7910": {
       "type": "half-media-text",
       "settings": {
-        "half_image": "shopify:\/\/shop_images\/ROTLD-posters.png",
-        "half_image_p": "1",
-        "half_video": "",
-        "half_title": "Return of the Living Dead (1985)",
-        "half_title_tag": "h3",
-        "half_text": "<h5>Rewritten by Dan O'Bannon.<\/h5>",
-        "half_b_text": "more info",
-        "half_b_url": "",
-        "half_text_color": "#000000",
-        "half_bg_color": "#f2f2f2"
       }
     },
     "ed938e3f-fbec-4441-b7f1-daec8b432c9c": {
       "type": "half-media-text",
       "settings": {
-        "half_image": "shopify:\/\/shop_images\/majorettes-small.png",
-        "half_image_p": "1",
-        "half_video": "",
-        "half_title": "The Majorettes (1986)",
-        "half_title_tag": "h3",
-        "half_text": "",
-        "half_b_text": "Shop Now",
-        "half_b_url": "",
-        "half_text_color": "#000",
-        "half_bg_color": "#fff"
       }
     },
     "6acf48d0-f8e9-453b-953e-63b6cd636f8e": {
       "type": "half-media-text",
       "settings": {
-        "half_image": "shopify:\/\/shop_images\/heartstopper-small-poster.png",
-        "half_image_p": "1",
-        "half_video": "",
-        "half_title": "Heartstopper (1989)",
-        "half_title_tag": "h3",
-        "half_text": "<h5>based upon John Russo's novel <em><strong>The Awakening<\/strong><\/em>.<\/h5>",
-        "half_b_text": "more info",
-        "half_b_url": "",
-        "half_text_color": "#000",
-        "half_bg_color": "#f2f2f2"
       }
     },
     "6e5fce07-d0b7-4253-8646-b351235ceab4": {
       "type": "half-media-text",
       "settings": {
-        "half_image": "shopify:\/\/shop_images\/voodoo-dawn.png",
-        "half_image_p": "1",
-        "half_video": "",
-        "half_title": "Voodoo Dawn (1990)",
-        "half_title_tag": "h3",
-        "half_text": "<h5>Based upon John Russo's novel of the same title.<\/h5>",
-        "half_b_text": "more info",
-        "half_b_url": "",
-        "half_text_color": "#000",
-        "half_bg_color": "#fff"
       }
     },
     "efabb6e9-e1cc-4f18-b3e5-970caff1f2d5": {
       "type": "half-media-text",
       "settings": {
-        "half_image": "shopify:\/\/shop_images\/midnight-2.png",
-        "half_image_p": "1",
-        "half_video": "",
-        "half_title": "Midnight 2: Sex, Death, and Videotape (1993)",
-        "half_title_tag": "h3",
-        "half_text": "",
-        "half_b_text": "more info",
-        "half_b_url": "",
-        "half_text_color": "#000",
-        "half_bg_color": "#f2f2f2"
       }
     },
     "b5f3af0e-3eac-44aa-a1a3-79215aba12fc": {
       "type": "half-media-text",
       "settings": {
-        "half_image": "shopify:\/\/shop_images\/zombie-jamboree.png",
-        "half_image_p": "1",
-        "half_video": "",
-        "half_title": "Zombie Jamboree (1993)",
-        "half_title_tag": "h3",
-        "half_text": "<p>A  documentary on the celebration of the 25th anniversary of <em><strong>Night of the Living Dead<\/strong><\/em>.<\/p>",
-        "half_b_text": "more info",
-        "half_b_url": "",
-        "half_text_color": "#000",
-        "half_bg_color": "#fff"
       }
     },
     "56b541ba-d861-4097-8151-391795d5b4af": {
       "type": "half-media-text",
       "settings": {
-        "half_image": "shopify:\/\/shop_images\/scream-queens.png",
-        "half_image_p": "1",
-        "half_video": "",
-        "half_title": "Scream Queens Naked Christmas (1996)",
-        "half_title_tag": "h3",
-        "half_text": "",
-        "half_b_text": "more info",
-        "half_b_url": "",
-        "half_text_color": "#000",
-        "half_bg_color": "#f2f2f2"
       }
     },
     "740576dc-87ca-4a66-b414-3b6ada74df6f": {
       "type": "half-media-text",
       "settings": {
-        "half_image": "shopify:\/\/shop_images\/night-30th.png",
-        "half_image_p": "1",
-        "half_video": "",
-        "half_title": "Night of the Living Dead: 30th Anniversary special Edition",
-        "half_title_tag": "h3",
-        "half_text": "",
-        "half_b_text": "Shop Now",
-        "half_b_url": "",
-        "half_text_color": "#000",
-        "half_bg_color": "#fff"
       }
     },
     "310def84-45a8-47ba-a31e-3f3b6e3ee1cb": {
       "type": "half-media-text",
       "settings": {
-        "half_image": "shopify:\/\/shop_images\/saloonatics.png",
-        "half_image_p": "1",
-        "half_video": "",
-        "half_title": "Saloonatics (2002)",
-        "half_title_tag": "h3",
-        "half_text": "<p>Reissued as <em><strong>The Mob Boss & The Soul Singer<\/strong><\/em>.<\/p>",
-        "half_b_text": "Shop Now",
-        "half_b_url": "",
-        "half_text_color": "#000",
-        "half_bg_color": "#f2f2f2"
       }
     },
     "9dd412a7-c44e-474e-a6c0-35a00e39ebd7": {
       "type": "half-media-text",
       "settings": {
-        "half_image": "shopify:\/\/shop_images\/uncle-john-is-a-zombie.png",
-        "half_image_p": "1",
-        "half_video": "",
-        "half_title": "My Uncle John is a Zombie (2016)",
-        "half_title_tag": "h3",
-        "half_text": "",
-        "half_b_text": "Shop Now",
-        "half_b_url": "",
-        "half_text_color": "#000",
-        "half_bg_color": "#fff"
       }
     },
     "d85d71c0-a231-44e3-a3ad-8f5e97fecc3a": {
       "type": "half-media-text",
       "settings": {
-        "half_image": "shopify:\/\/shop_images\/midnight-remake.png",
-        "half_image_p": "1",
-        "half_video": "",
-        "half_title": "Midnight (2020)",
-        "half_title_tag": "h3",
-        "half_text": "<h5>A spirited remake written & directed by Gary Lee Vincent.<\/h5>",
-        "half_b_text": "more info",
-        "half_b_url": "",
-        "half_text_color": "#000",
-        "half_bg_color": "#f2f2f2"
+      }
+    },
+    "97fd24de-d0c2-4b26-9c6e-ba8f35f374ea": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18761110683929__97fd24de-d0c2-4b26-9c6e-ba8f35f374ea-1682482766adc981f4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Night of the living dead (1968)",
+            "heading_size": "h1"
+          }
+        },
+        "template--18761110683929__97fd24de-d0c2-4b26-9c6e-ba8f35f374ea-1682482766adc981f4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>co-written by george romero & john russo<\/h5>",
+            "text_style": "body"
+          }
+        },
+        "template--18761110683929__97fd24de-d0c2-4b26-9c6e-ba8f35f374ea-1682482766adc981f4-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "MORE INFO",
+            "button_link": "https:\/\/image-ten.com"
+          }
+        }
+      },
+      "block_order": [
+        "template--18761110683929__97fd24de-d0c2-4b26-9c6e-ba8f35f374ea-1682482766adc981f4-0",
+        "template--18761110683929__97fd24de-d0c2-4b26-9c6e-ba8f35f374ea-1682482766adc981f4-1",
+        "template--18761110683929__97fd24de-d0c2-4b26-9c6e-ba8f35f374ea-1682482766adc981f4-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/notld-1968-a.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -263,6 +154,7 @@
     "740576dc-87ca-4a66-b414-3b6ada74df6f",
     "310def84-45a8-47ba-a31e-3f3b6e3ee1cb",
     "9dd412a7-c44e-474e-a6c0-35a00e39ebd7",
-    "d85d71c0-a231-44e3-a3ad-8f5e97fecc3a"
+    "d85d71c0-a231-44e3-a3ad-8f5e97fecc3a",
+    "97fd24de-d0c2-4b26-9c6e-ba8f35f374ea"
   ]
 }
