@@ -142,7 +142,7 @@
     "7a71af63-de98-4fdf-88cb-41d0e669ccc2": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n  <head>\n    <style>\n      .separator {\n        position: relative;\n        width: 100%;\n        height: 1px;\n        margin-top: 10px;\n        background-color: black;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <div class=\"separator\"><\/div>\n  <\/body>\n<\/html>",
+        "custom_liquid": "{% comment %} This is a Liquid comment - you can ignore this line {% endcomment %}\n\n<div class=\"separator\">\n  <svg height=\"1\">\n    <line x1=\"0\" y1=\"0\" x2=\"100%\" y2=\"0\" stroke=\"#8b0000\" stroke-width=\"0.2\"\/>\n  <\/svg>\n<\/div>\n\n{% comment %} This is another Liquid comment {% endcomment %}",
         "color_scheme": "accent-1",
         "padding_top": 40,
         "padding_bottom": 52
