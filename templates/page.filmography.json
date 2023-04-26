@@ -180,17 +180,6 @@
         "padding_bottom": 36
       }
     },
-    "main": {
-      "type": "page",
-      "disabled": true,
-      "settings": {
-        "page": "",
-        "heading_size": "h1",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "aa1c3554-b1b7-4781-95f4-ea919d5a20f1": {
       "type": "half-media-text",
       "disabled": true,
@@ -293,7 +282,6 @@
     "1988e681-8dbb-4713-b232-18d3156af2b4",
     "ea2cb205-4e5d-4d41-8b53-028a89691cbc",
     "1164a3ae-017b-454d-817a-0de105ee465d",
-    "main",
     "aa1c3554-b1b7-4781-95f4-ea919d5a20f1",
     "7e749a9f-4b5c-4ae9-b62f-abe15a017c75",
     "b4bb3907-3948-4778-80c4-b900277cabf6",
