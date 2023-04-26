@@ -28,7 +28,11 @@
     {% endif %}
 
     {% render 'meta-tags' %}
+    <!-- Common/Main css file -->
+    {%- render 'stylesheet', name: 'base.css' -%}
 
+    <!-- Common/Main js file -->
+    <script src="{{ 'js-common.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
