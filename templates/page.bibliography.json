@@ -771,6 +771,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "9f27999d-5438-420b-b679-26661463ee66": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18761085354265__9f27999d-5438-420b-b679-26661463ee66-16824184578750e9f3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Complete Night of the Living Dead Filmbook (1985)",
+            "heading_size": "h2"
+          }
+        },
+        "template--18761085354265__9f27999d-5438-420b-b679-26661463ee66-16824184578750e9f3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This first-person, highly detailed retrospective of the 1967 production of <em><strong>Night of the Living Dead<\/strong><\/em> is unparalleled for its no-nonsense blow-by-blow account from the horse's mouth.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18761085354265__9f27999d-5438-420b-b679-26661463ee66-16824184578750e9f3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Coming to get you",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18761085354265__9f27999d-5438-420b-b679-26661463ee66-16824184578750e9f3-0",
+        "template--18761085354265__9f27999d-5438-420b-b679-26661463ee66-16824184578750e9f3-1",
+        "template--18761085354265__9f27999d-5438-420b-b679-26661463ee66-16824184578750e9f3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/night-filmbook.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -791,6 +836,7 @@
     "0871ac8a-c697-42a6-94db-28ae5890684d",
     "880962b6-3261-4612-a7a1-f5eac139e3e3",
     "a62c1492-12da-4053-b7b2-c75dfcc1d530",
-    "21e595ce-8ff9-499d-82bf-def001a636d4"
+    "21e595ce-8ff9-499d-82bf-def001a636d4",
+    "9f27999d-5438-420b-b679-26661463ee66"
   ]
 }
