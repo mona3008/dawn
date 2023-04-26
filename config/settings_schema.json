@@ -34,21 +34,6 @@
     ]
   },
   {
-    "name": "Previous and Next Products",
-    "settings": [
-      {
-        "type": "product",
-        "id": "previous_product",
-        "label": "Select the previous product"
-      },
-      {
-        "type": "product",
-        "id": "next_product",
-        "label": "Select the next product"
-      }
-    ]
-  },
-  {
     "name": "t:settings_schema.colors.name",
     "settings": [
       {
