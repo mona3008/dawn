@@ -1,96 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "page",
-      "disabled": true,
-      "settings": {
-        "page": "",
-        "heading_size": "h1",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "aa1c3554-b1b7-4781-95f4-ea919d5a20f1": {
-      "type": "half-media-text",
-      "settings": {
-      }
-    },
-    "7e749a9f-4b5c-4ae9-b62f-abe15a017c75": {
-      "type": "half-media-text",
-      "settings": {
-      }
-    },
-    "b4bb3907-3948-4778-80c4-b900277cabf6": {
-      "type": "half-media-text",
-      "settings": {
-      }
-    },
-    "f860a278-57bb-476b-942e-6ab435def2f3": {
-      "type": "half-media-text",
-      "settings": {
-      }
-    },
-    "54734407-8ea8-4d11-a5e4-7cec23550137": {
-      "type": "half-media-text",
-      "settings": {
-      }
-    },
-    "9dcda4e9-167c-40a5-8df2-6f89c67b7910": {
-      "type": "half-media-text",
-      "settings": {
-      }
-    },
-    "ed938e3f-fbec-4441-b7f1-daec8b432c9c": {
-      "type": "half-media-text",
-      "settings": {
-      }
-    },
-    "6acf48d0-f8e9-453b-953e-63b6cd636f8e": {
-      "type": "half-media-text",
-      "settings": {
-      }
-    },
-    "6e5fce07-d0b7-4253-8646-b351235ceab4": {
-      "type": "half-media-text",
-      "settings": {
-      }
-    },
-    "efabb6e9-e1cc-4f18-b3e5-970caff1f2d5": {
-      "type": "half-media-text",
-      "settings": {
-      }
-    },
-    "b5f3af0e-3eac-44aa-a1a3-79215aba12fc": {
-      "type": "half-media-text",
-      "settings": {
-      }
-    },
-    "56b541ba-d861-4097-8151-391795d5b4af": {
-      "type": "half-media-text",
-      "settings": {
-      }
-    },
-    "740576dc-87ca-4a66-b414-3b6ada74df6f": {
-      "type": "half-media-text",
-      "settings": {
-      }
-    },
-    "310def84-45a8-47ba-a31e-3f3b6e3ee1cb": {
-      "type": "half-media-text",
-      "settings": {
-      }
-    },
-    "9dd412a7-c44e-474e-a6c0-35a00e39ebd7": {
-      "type": "half-media-text",
-      "settings": {
-      }
-    },
-    "d85d71c0-a231-44e3-a3ad-8f5e97fecc3a": {
-      "type": "half-media-text",
-      "settings": {
-      }
-    },
     "97fd24de-d0c2-4b26-9c6e-ba8f35f374ea": {
       "type": "image-with-text",
       "blocks": {
@@ -135,9 +44,254 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1988e681-8dbb-4713-b232-18d3156af2b4": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18761110683929__1988e681-8dbb-4713-b232-18d3156af2b4-1682482766adc981f4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "There's always vanilla (1971)",
+            "heading_size": "h1"
+          }
+        },
+        "template--18761110683929__1988e681-8dbb-4713-b232-18d3156af2b4-1682482766adc981f4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Re-released as The Affair.<br\/>Filmed as At Play With the Angels.<\/h4>",
+            "text_style": "body"
+          }
+        },
+        "template--18761110683929__1988e681-8dbb-4713-b232-18d3156af2b4-1682482766adc981f4-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18761110683929__1988e681-8dbb-4713-b232-18d3156af2b4-1682482766adc981f4-0",
+        "template--18761110683929__1988e681-8dbb-4713-b232-18d3156af2b4-1682482766adc981f4-1",
+        "template--18761110683929__1988e681-8dbb-4713-b232-18d3156af2b4-1682482766adc981f4-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/theres-always-vanilla.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ea2cb205-4e5d-4d41-8b53-028a89691cbc": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18761110683929__ea2cb205-4e5d-4d41-8b53-028a89691cbc-1682482766adc981f4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Devil and Sam Silverstein (1976)",
+            "heading_size": "h1"
+          }
+        },
+        "template--18761110683929__ea2cb205-4e5d-4d41-8b53-028a89691cbc-1682482766adc981f4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Also exhibited as <em><strong>My Wife Cut Me Off 40 Years Ago.<\/strong><\/em><\/h5>",
+            "text_style": "body"
+          }
+        },
+        "template--18761110683929__ea2cb205-4e5d-4d41-8b53-028a89691cbc-1682482766adc981f4-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18761110683929__ea2cb205-4e5d-4d41-8b53-028a89691cbc-1682482766adc981f4-0",
+        "template--18761110683929__ea2cb205-4e5d-4d41-8b53-028a89691cbc-1682482766adc981f4-1",
+        "template--18761110683929__ea2cb205-4e5d-4d41-8b53-028a89691cbc-1682482766adc981f4-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/devil-and-sam.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1164a3ae-017b-454d-817a-0de105ee465d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18761110683929__1164a3ae-017b-454d-817a-0de105ee465d-1682482766adc981f4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--18761110683929__1164a3ae-017b-454d-817a-0de105ee465d-1682482766adc981f4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18761110683929__1164a3ae-017b-454d-817a-0de105ee465d-1682482766adc981f4-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18761110683929__1164a3ae-017b-454d-817a-0de105ee465d-1682482766adc981f4-0",
+        "template--18761110683929__1164a3ae-017b-454d-817a-0de105ee465d-1682482766adc981f4-1",
+        "template--18761110683929__1164a3ae-017b-454d-817a-0de105ee465d-1682482766adc981f4-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "page": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "aa1c3554-b1b7-4781-95f4-ea919d5a20f1": {
+      "type": "half-media-text",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "7e749a9f-4b5c-4ae9-b62f-abe15a017c75": {
+      "type": "half-media-text",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "b4bb3907-3948-4778-80c4-b900277cabf6": {
+      "type": "half-media-text",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "f860a278-57bb-476b-942e-6ab435def2f3": {
+      "type": "half-media-text",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "54734407-8ea8-4d11-a5e4-7cec23550137": {
+      "type": "half-media-text",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "9dcda4e9-167c-40a5-8df2-6f89c67b7910": {
+      "type": "half-media-text",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "ed938e3f-fbec-4441-b7f1-daec8b432c9c": {
+      "type": "half-media-text",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "6acf48d0-f8e9-453b-953e-63b6cd636f8e": {
+      "type": "half-media-text",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "6e5fce07-d0b7-4253-8646-b351235ceab4": {
+      "type": "half-media-text",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "efabb6e9-e1cc-4f18-b3e5-970caff1f2d5": {
+      "type": "half-media-text",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "b5f3af0e-3eac-44aa-a1a3-79215aba12fc": {
+      "type": "half-media-text",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "56b541ba-d861-4097-8151-391795d5b4af": {
+      "type": "half-media-text",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "740576dc-87ca-4a66-b414-3b6ada74df6f": {
+      "type": "half-media-text",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "310def84-45a8-47ba-a31e-3f3b6e3ee1cb": {
+      "type": "half-media-text",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "9dd412a7-c44e-474e-a6c0-35a00e39ebd7": {
+      "type": "half-media-text",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "d85d71c0-a231-44e3-a3ad-8f5e97fecc3a": {
+      "type": "half-media-text",
+      "disabled": true,
+      "settings": {
+      }
     }
   },
   "order": [
+    "97fd24de-d0c2-4b26-9c6e-ba8f35f374ea",
+    "1988e681-8dbb-4713-b232-18d3156af2b4",
+    "ea2cb205-4e5d-4d41-8b53-028a89691cbc",
+    "1164a3ae-017b-454d-817a-0de105ee465d",
     "main",
     "aa1c3554-b1b7-4781-95f4-ea919d5a20f1",
     "7e749a9f-4b5c-4ae9-b62f-abe15a017c75",
@@ -154,7 +308,6 @@
     "740576dc-87ca-4a66-b414-3b6ada74df6f",
     "310def84-45a8-47ba-a31e-3f3b6e3ee1cb",
     "9dd412a7-c44e-474e-a6c0-35a00e39ebd7",
-    "d85d71c0-a231-44e3-a3ad-8f5e97fecc3a",
-    "97fd24de-d0c2-4b26-9c6e-ba8f35f374ea"
+    "d85d71c0-a231-44e3-a3ad-8f5e97fecc3a"
   ]
 }
