@@ -36,14 +36,14 @@
 
 .mega-menu__list {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap; /* Updated to nowrap for horizontal alignment */
   justify-content: space-between;
   align-items: center;
   list-style: none;
 }
 
 .mega-menu__list > li {
-  flex-basis: calc(100% / 6); /* Adjust the number '6' to match the number of sub-navigation items per row */
+  flex: 1; /* Updated to flex: 1 for horizontal alignment */
   margin-right: 20px;
 }
 
