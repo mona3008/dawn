@@ -688,21 +688,21 @@
         "template--18761085354265__a62c1492-12da-4053-b7b2-c75dfcc1d530-16824184578750e9f3-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "Belly Timber (2015)",
+            "heading_size": "h2"
           }
         },
         "template--18761085354265__a62c1492-12da-4053-b7b2-c75dfcc1d530-16824184578750e9f3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>In Ohio, an evil group of ruthless Mongolian nomads are practicing the cannibalistic religion of Kala with reckless abandon. No one is safe.<\/p><p>As each day passes, more and more people fall victim to the Kala Clan's evil. With time running out, can John McCormick and his posse of frontiersmen find and defeat this notorious foe?<\/p>",
+            "text": "<p>In Ohio, an evil group of ruthless Mongolian nomads are practicing the cannibalistic religion of Kala with reckless abandon. No one is safe.<\/p><p>As each day passes, more and more people fall victim to the Kala Clan's evil. With time running out, can John McCormick and his posse of frontiersmen find and defeat this notorious foe?<\/p><p><\/p><p>Written in collaboration with Gary Lee Vincent and Solon Tsangaras.<\/p>",
             "text_style": "body"
           }
         },
         "template--18761085354265__a62c1492-12da-4053-b7b2-c75dfcc1d530-16824184578750e9f3-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Buy a copy",
             "button_link": ""
           }
         }
@@ -711,6 +711,51 @@
         "template--18761085354265__a62c1492-12da-4053-b7b2-c75dfcc1d530-16824184578750e9f3-0",
         "template--18761085354265__a62c1492-12da-4053-b7b2-c75dfcc1d530-16824184578750e9f3-1",
         "template--18761085354265__a62c1492-12da-4053-b7b2-c75dfcc1d530-16824184578750e9f3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/belly-timber.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "21e595ce-8ff9-499d-82bf-def001a636d4": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18761085354265__21e595ce-8ff9-499d-82bf-def001a636d4-16824184578750e9f3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--18761085354265__21e595ce-8ff9-499d-82bf-def001a636d4-16824184578750e9f3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18761085354265__21e595ce-8ff9-499d-82bf-def001a636d4-16824184578750e9f3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18761085354265__21e595ce-8ff9-499d-82bf-def001a636d4-16824184578750e9f3-0",
+        "template--18761085354265__21e595ce-8ff9-499d-82bf-def001a636d4-16824184578750e9f3-1",
+        "template--18761085354265__21e595ce-8ff9-499d-82bf-def001a636d4-16824184578750e9f3-2"
       ],
       "settings": {
         "height": "adapt",
@@ -744,6 +789,7 @@
     "0ffdf015-0afe-4394-adde-2577f2c081bb",
     "0871ac8a-c697-42a6-94db-28ae5890684d",
     "880962b6-3261-4612-a7a1-f5eac139e3e3",
-    "a62c1492-12da-4053-b7b2-c75dfcc1d530"
+    "a62c1492-12da-4053-b7b2-c75dfcc1d530",
+    "21e595ce-8ff9-499d-82bf-def001a636d4"
   ]
 }
