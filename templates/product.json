@@ -40,12 +40,6 @@
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "disabled": true,
@@ -72,6 +66,12 @@
             "content": "<p>{{ product.metafields.custom.product_details | metafield_tag }}<\/p>",
             "page": ""
           }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
         }
       },
       "block_order": [
@@ -81,11 +81,11 @@
         "buy_buttons",
         "68b20301-9dda-44ef-b39f-4dafe4fecae7",
         "price",
-        "share",
         "variant_picker",
         "quantity_selector",
         "description",
-        "collapsible-row-0"
+        "collapsible-row-0",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
