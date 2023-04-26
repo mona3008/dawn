@@ -57,12 +57,13 @@
         "nav.breadcrumb {display: flex; align-items: center;}",
         ".breadcrumb__list {display: flex; list-style: none; margin: 0; padding: 0;}",
         ".breadcrumb__item {display: flex; align-items: center;}",
-        ".breadcrumb__link {text-decoration: none; font-size: 16px; \/* Adjust the font size to your preference *\/}",
+        ".breadcrumb__link {text-decoration: none; font-size: 16px; padding: 10px;}",
         ".breadcrumb__link:hover {text-decoration: underline;}",
-        ".breadcrumb__separator {margin: 0 10px; font-size: 16px; \/* Adjust the font size to your preference *\/}"
+        ".breadcrumb__separator {margin: 0 10px; font-size: 16px; padding: 0 5px;}",
+        "@media only screen and (max-width: 749px) {.breadcrumb__link {font-size: 14px; padding: 5px; } .breadcrumb__separator {margin: 0 5px; font-size: 14px; padding: 0 2px; }}"
       ],
       "settings": {
-        "custom_liquid": "<nav class=\"breadcrumb\" aria-label=\"Breadcrumb\">\n  <ol class=\"breadcrumb__list\">\n    <li class=\"breadcrumb__item\">\n      <a href=\"\/\" class=\"breadcrumb__link\">{{ 'general.breadcrumbs.home' | t }}<\/a>\n      {% if current_collection or product %}\n        <span class=\"breadcrumb__separator\">\/<\/span>\n      {% endif %}\n    <\/li>\n    {% if current_collection %}\n      <li class=\"breadcrumb__item\">\n        <a href=\"{{ current_collection.url }}\" class=\"breadcrumb__link\">{{ current_collection.title }}<\/a>\n        {% if product %}\n          <span class=\"breadcrumb__separator\">\/<\/span>\n        {% endif %}\n      <\/li>\n    {% endif %}\n    {% if product %}\n      <li class=\"breadcrumb__item\">\n        <span class=\"breadcrumb__link\" aria-current=\"page\">{{ product.title }}<\/span>\n      <\/li>\n    {% endif %}\n  <\/ol>\n<\/nav>",
+        "custom_liquid": "{% assign current_collection = collection %}\n{% if product and current_collection == nil %}\n  {% assign current_collection = product.collections.first %}\n{% endif %}\n\n<nav class=\"breadcrumb\" aria-label=\"Breadcrumb\">\n  <ol class=\"breadcrumb__list\">\n    <li class=\"breadcrumb__item\">\n      <a href=\"\/\" class=\"breadcrumb__link\">{{ 'general.breadcrumbs.home' | t }}<\/a>\n      <span class=\"breadcrumb__separator\">›<\/span>\n    <\/li>\n    {% if current_collection %}\n      <li class=\"breadcrumb__item\">\n        <a href=\"{{ current_collection.url }}\" class=\"breadcrumb__link\">{{ current_collection.title }}<\/a>\n        <span class=\"breadcrumb__separator\">›<\/span>\n      <\/li>\n    {% endif %}\n    {% if product %}\n      <li class=\"breadcrumb__item\">\n        <span class=\"breadcrumb__link\" aria-current=\"page\">{{ product.title }}<\/span>\n      <\/li>\n    {% endif %}\n  <\/ol>\n<\/nav>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
