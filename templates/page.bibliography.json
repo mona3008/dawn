@@ -592,6 +592,51 @@
         "padding_bottom": 36
       }
     },
+    "2e2d6ff3-4c94-4e60-aafb-9decedeb8d97": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18761085354265__2e2d6ff3-4c94-4e60-aafb-9decedeb8d97-16824184578750e9f3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Scare Tactics (1992)",
+            "heading_size": "h2"
+          }
+        },
+        "template--18761085354265__2e2d6ff3-4c94-4e60-aafb-9decedeb8d97-16824184578750e9f3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Russo's filmmaking guidebooks are known as bibles of the industry. You'll learn everything from high-end camera operation to the finer points of blocking shots and directing talent. Plus you’ll discover the secrets to securing financing for your movies, negotiating contracts and how to get your projects into theaters.<br\/><br\/><em>\"I made a movie I didn't finish. Then I read your books, took notes and made charts, and that's what guided me through my first finished movie.\" - <\/em><em><strong>Quentin Tarantino<\/strong><\/em><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18761085354265__2e2d6ff3-4c94-4e60-aafb-9decedeb8d97-16824184578750e9f3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Knock 'em dead",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18761085354265__2e2d6ff3-4c94-4e60-aafb-9decedeb8d97-16824184578750e9f3-0",
+        "template--18761085354265__2e2d6ff3-4c94-4e60-aafb-9decedeb8d97-16824184578750e9f3-1",
+        "template--18761085354265__2e2d6ff3-4c94-4e60-aafb-9decedeb8d97-16824184578750e9f3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/scare-tactics.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "4d7709aa-a5d7-41e9-9ff6-00bfb4f1eeb5": {
       "type": "image-with-text",
       "blocks": {
@@ -861,51 +906,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "2e2d6ff3-4c94-4e60-aafb-9decedeb8d97": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--18761085354265__2e2d6ff3-4c94-4e60-aafb-9decedeb8d97-16824184578750e9f3-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Scare Tactics (1992)",
-            "heading_size": "h2"
-          }
-        },
-        "template--18761085354265__2e2d6ff3-4c94-4e60-aafb-9decedeb8d97-16824184578750e9f3-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Russo's numerous movie making books are known as bibles of the industry. You'll learn everything from high-end camera operation to the finer points of blocking shots and directing talent. Plus you’ll discover the secrets to securing financing for your movies, negotiating contracts and how to get your projects into theaters.<br\/><br\/><em>\"I made a movie I didn't finish. Then I read your books, took notes and made charts, and that's what guided me through my first finished movie.\" - <\/em><em><strong>Quentin Tarantino<\/strong><\/em><\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--18761085354265__2e2d6ff3-4c94-4e60-aafb-9decedeb8d97-16824184578750e9f3-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Knock 'em dead",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18761085354265__2e2d6ff3-4c94-4e60-aafb-9decedeb8d97-16824184578750e9f3-0",
-        "template--18761085354265__2e2d6ff3-4c94-4e60-aafb-9decedeb8d97-16824184578750e9f3-1",
-        "template--18761085354265__2e2d6ff3-4c94-4e60-aafb-9decedeb8d97-16824184578750e9f3-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/scare-tactics.png",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -923,12 +923,12 @@
     "87a7d340-567e-4241-95ba-c4e002303da7",
     "9a12e5b0-ff05-447d-a896-79c1c55e0175",
     "89010534-3441-4acd-ac6d-206fe913b083",
+    "2e2d6ff3-4c94-4e60-aafb-9decedeb8d97",
     "4d7709aa-a5d7-41e9-9ff6-00bfb4f1eeb5",
     "0ffdf015-0afe-4394-adde-2577f2c081bb",
     "0871ac8a-c697-42a6-94db-28ae5890684d",
     "880962b6-3261-4612-a7a1-f5eac139e3e3",
     "a62c1492-12da-4053-b7b2-c75dfcc1d530",
-    "21e595ce-8ff9-499d-82bf-def001a636d4",
-    "2e2d6ff3-4c94-4e60-aafb-9decedeb8d97"
+    "21e595ce-8ff9-499d-82bf-def001a636d4"
   ]
 }
