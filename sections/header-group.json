@@ -50,10 +50,20 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "c26d510a-2fef-4db6-bdb7-e5ccfc14d536": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<header class=\"site-header\">\n  <div class=\"breadcrumb-container\">\n    {% if template.name == 'page' %}\n      {% if template.name == 'page' and template.page_title != blank %}\n        <nav aria-label=\"Breadcrumb\" class=\"breadcrumb\">\n          <div class=\"breadcrumb__item\">\n            <a href=\"\/\" class=\"breadcrumb__link\">{{ 'layout.navigation.home' | t }}<\/a>\n          <\/div>\n          {% if collection %}\n            <div class=\"breadcrumb__item\">\n              <span class=\"breadcrumb__separator\">\/<\/span>\n              <a href=\"{{ collection.url }}\" class=\"breadcrumb__link\">{{ collection.title }}<\/a>\n            <\/div>\n          {% endif %}\n          {% if product %}\n            <div class=\"breadcrumb__item\">\n              <span class=\"breadcrumb__separator\">\/<\/span>\n              <a href=\"{{ collection.url }}\" class=\"breadcrumb__link\">{{ collection.title }}<\/a>\n            <\/div>\n            <div class=\"breadcrumb__item\">\n              <span class=\"breadcrumb__separator\">\/<\/span>\n              <a href=\"{{ product.url }}\" class=\"breadcrumb__link\">{{ product.title }}<\/a>\n            <\/div>\n          {% endif %}\n          {% if page_title %}\n            <div class=\"breadcrumb__item\">\n              <span class=\"breadcrumb__separator\">\/<\/span>\n              <span class=\"breadcrumb__text\">{{ page_title }}<\/span>\n            <\/div>\n          {% endif %}\n        <\/nav>\n      {% endif %}\n    {% endif %}\n    <!-- Your other header content here -->\n  <\/div>\n<\/header>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "c26d510a-2fef-4db6-bdb7-e5ccfc14d536"
   ]
 }
