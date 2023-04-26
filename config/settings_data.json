@@ -5,10 +5,10 @@
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#bb0000",
     "gradient_accent_1": "",
-    "colors_accent_2": "#ffffff",
+    "colors_accent_2": "#bb0000",
     "gradient_accent_2": "",
     "colors_text": "#000",
-    "colors_outline_button_labels": "#ffffff",
+    "colors_outline_button_labels": "#bb0000",
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
     "colors_background_2": "#000000",
@@ -293,10 +293,12 @@
   },
   "platform_customizations": {
     "custom_css": [
+      ".btn--secondary-accent:not([disabled]):hover,.btn--secondary-accent:focus {background-color: #e1e1e1; color: black !important;}",
       ".list-menu__item {font-size: 14px;}",
       ".header {background-color: black;}",
       "header .header__icons svg * {color: #fff;}",
-      "#Details-menu-drawer-container .header__icon svg path {fill: #fff;}"
+      "#Details-menu-drawer-container .header__icon svg path {fill: #fff;}",
+      "#AddToCart-product-template {color: black !important;}"
     ]
   }
 }
