@@ -1,43 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
-    <header class="site-header">
-  <div class="breadcrumb-container">
-    {% if template.name == 'page' %}
-      {% if template.name == 'page' and template.page_title != blank %}
-        <nav aria-label="Breadcrumb" class="breadcrumb">
-          <div class="breadcrumb__item">
-            <a href="/" class="breadcrumb__link">{{ 'layout.navigation.home' | t }}</a>
-          </div>
-          {% if collection %}
-            <div class="breadcrumb__item">
-              <span class="breadcrumb__separator">/</span>
-              <a href="{{ collection.url }}" class="breadcrumb__link">{{ collection.title }}</a>
-            </div>
-          {% endif %}
-          {% if product %}
-            <div class="breadcrumb__item">
-              <span class="breadcrumb__separator">/</span>
-              <a href="{{ collection.url }}" class="breadcrumb__link">{{ collection.title }}</a>
-            </div>
-            <div class="breadcrumb__item">
-              <span class="breadcrumb__separator">/</span>
-              <a href="{{ product.url }}" class="breadcrumb__link">{{ product.title }}</a>
-            </div>
-          {% endif %}
-          {% if page_title %}
-            <div class="breadcrumb__item">
-              <span class="breadcrumb__separator">/</span>
-              <span class="breadcrumb__text">{{ page_title }}</span>
-            </div>
-          {% endif %}
-        </nav>
-      {% endif %}
-    {% endif %}
-    <!-- Your other header content here -->
-  </div>
-</header>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
