@@ -102,7 +102,7 @@
         "description_style": "uppercase",
         "collection": "unique",
         "products_to_show": 10,
-        "columns_desktop": 5,
+        "columns_desktop": 4,
         "full_width": true,
         "show_view_all": false,
         "view_all_style": "solid",
