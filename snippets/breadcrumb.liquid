@@ -5,11 +5,13 @@
     </li>
     {% if collection %}
       <li class="breadcrumb__item">
+        <span class="breadcrumb__separator"> &gt; </span>
         <a href="{{ collection.url }}" class="breadcrumb__link">{{ collection.title }}</a>
       </li>
     {% endif %}
     {% if product %}
       <li class="breadcrumb__item">
+        <span class="breadcrumb__separator"> &gt; </span>
         <span class="breadcrumb__link" aria-current="page">{{ product.title }}</span>
       </li>
     {% endif %}
