@@ -110,7 +110,7 @@
         "template--18761110683929__ea2cb205-4e5d-4d41-8b53-028a89691cbc-1682482766adc981f4-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "MORE INFO",
             "button_link": ""
           }
         }
@@ -141,21 +141,21 @@
         "template--18761110683929__1164a3ae-017b-454d-817a-0de105ee465d-1682482766adc981f4-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "THE BOOBY HATCH",
             "heading_size": "h1"
           }
         },
         "template--18761110683929__1164a3ae-017b-454d-817a-0de105ee465d-1682482766adc981f4-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<h4><em>Re-released as <\/em><em><strong>The Liberation of Cherry Jankowski<\/strong><\/em><em>.<\/em><\/h4>",
             "text_style": "body"
           }
         },
         "template--18761110683929__1164a3ae-017b-454d-817a-0de105ee465d-1682482766adc981f4-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "MORE INFO",
             "button_link": ""
           }
         }
@@ -166,6 +166,7 @@
         "template--18761110683929__1164a3ae-017b-454d-817a-0de105ee465d-1682482766adc981f4-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/booby-hatch.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
