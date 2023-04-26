@@ -22,6 +22,12 @@
             "text_style": "subtitle"
           }
         },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -66,26 +72,20 @@
             "content": "<p>{{ product.metafields.custom.product_details | metafield_tag }}<\/p>",
             "page": ""
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
         "vendor",
         "title",
         "caption",
+        "share",
         "price",
         "buy_buttons",
         "variant_picker",
         "quantity_selector",
         "68b20301-9dda-44ef-b39f-4dafe4fecae7",
         "description",
-        "collapsible-row-0",
-        "share"
+        "collapsible-row-0"
       ],
       "settings": {
         "enable_sticky_info": true,
