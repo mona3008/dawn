@@ -50,20 +50,10 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "0e9ce62f-46e4-4e04-a718-defabde66f1e": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% assign collection_handle = 'all' %}\n{% assign collection = collections[collection_handle] %}\n{% assign prev_product = nil %}\n{% assign next_product = nil %}\n\n{% for item in collection.products %}\n  {% if next_product == nil and item.handle == product.handle %}\n    {% assign next_product = forloop.index0 | plus: 1 %}\n  {% endif %}\n  {% if item.handle == product.handle %}\n    {% assign prev_product = forloop.index0 | minus: 1 %}\n  {% endif %}\n{% endfor %}\n\n{% if prev_product != nil %}\n  {% assign prev_product = collection.products[prev_product] %}\n{% endif %}\n{% if next_product != nil %}\n  {% assign next_product = collection.products[next_product] %}\n{% endif %}\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    var prev_product = {{ prev_product | json }};\n    var next_product = {{ next_product | json }};\n    var buttonsHtml = '';\n\n    if (prev_product) {\n      buttonsHtml += '<a href=\"' + prev_product.url + '\" class=\"previous-product\">&#8592; ' + prev_product.title + '<\/a>';\n    }\n\n    if (next_product) {\n      buttonsHtml += '<a href=\"' + next_product.url + '\" class=\"next-product\">' + next_product.title + ' &#8594;<\/a>';\n    }\n\n    var targetElement = document.querySelector(\".product-single\"); \/\/ Change this selector to target the desired position\n    var buttonsContainer = document.createElement(\"div\");\n    buttonsContainer.className = \"prev-next-buttons\";\n    buttonsContainer.innerHTML = buttonsHtml;\n    targetElement.parentNode.insertBefore(buttonsContainer, targetElement.nextSibling); \/\/ Change 'nextSibling' to 'previousSibling' to insert the buttons before the target element\n  });\n<\/script>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "announcement-bar",
-    "header",
-    "0e9ce62f-46e4-4e04-a718-defabde66f1e"
+    "header"
   ]
 }
