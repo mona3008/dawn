@@ -52,28 +52,32 @@
     text-decoration: none;
     color: black;
     position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .previous-product .product-navigation-button::before {
     content: '';
     position: absolute;
     top: 50%;
-    left: -25px;
+    left: 0;
     transform: translateY(-50%);
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
     border-right: 5px solid black;
+    margin-right: 10px;
   }
 
   .next-product .product-navigation-button::after {
     content: '';
     position: absolute;
     top: 50%;
-    right: -25px;
+    right: 0;
     transform: translateY(-50%);
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
     border-left: 5px solid black;
+    margin-left: 10px;
   }
 
   .product-navigation-button:hover {
