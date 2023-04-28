@@ -54,6 +54,7 @@
     position: relative;
     padding-left: 10px;
     padding-right: 10px;
+    transition: color 0.2s;
   }
 
   .previous-product .product-navigation-button::before {
@@ -82,6 +83,14 @@
 
   .product-navigation-button:hover {
     color: red;
+  }
+
+  .product-navigation-button:hover::before {
+    border-right-color: red;
+  }
+
+  .product-navigation-button:hover::after {
+    border-left-color: red;
   }
 </style>
 
