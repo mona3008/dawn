@@ -19,25 +19,28 @@
   {% endif %}
 {% endfor %}
 
+<link href="https://fonts.googleapis.com/css?family=Cinzel+Black&display=swap" rel="stylesheet">
 
 <style>
   @font-face {
-    font-family: 'Cinzel';
-    src: url('{{ font_cdn_url }}') format('truetype');
+    font-family: 'Cinzel Black';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Cinzel Black'), local('Cinzel-Black'), url(https://fonts.gstatic.com/s/cinzelblack/v13/8vIJ7ww63mVu7gtL8Qs.ttf) format('truetype');
   }
 
   .product-navigation-button {
     text-decoration: none;
     color: black;
     font-size: 14px;
-    font-family: 'Cinzel', black;
-    font-weight: 1200;
+    font-family: 'Cinzel Black', serif;
   }
 
   .product-navigation-button:hover {
     color: #8b0000;
   }
 </style>
+
 
 <div style="display: flex; justify-content: space-between; margin-top: 10px; margin-bottom: 50px; font-family: 'Cinzel', serif;">
   {% if previous_product %}
