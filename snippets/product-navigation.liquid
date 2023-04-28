@@ -25,17 +25,32 @@
 
 <style>
   @font-face {
-    font-family: '';
-    font-style: black;
+    font-family: 'Cinzel Black';
+    font-style: normal;
     font-weight: 900;
-    src: local('Cinzel'), local('Cinzel'), url(https://fonts.gstatic.com/s/cinzelblack/v13/8vIJ7ww63mVu7gtL8Qs.ttf) format('truetype');
+    src: local('Cinzel Black'), local('Cinzel-Black'), url(https://fonts.gstatic.com/s/cinzelblack/v13/8vIJ7ww63mVu7gtL8Qs.ttf) format('truetype');
+  }
+
+  .product-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: 'Cinzel Black', serif;
+    font-size: 18px;
+  }
+
+  .previous-product {
+    text-align: left;
+  }
+
+  .next-product {
+    text-align: right;
   }
 
   .product-navigation-button {
     text-decoration: none;
     color: black;
-    font-size: 18px;
-    font-family: 'Cinzel', black;
   }
 
   .product-navigation-button:hover {
@@ -44,17 +59,24 @@
 </style>
 
 
-<div style="display: flex; justify-content: space-between; margin-top: 10px; margin-bottom: 50px;">
+<div class="product-navigation">
   {% if previous_product %}
-    <a href="{{ previous_product.url }}" title="Previous Product" class="product-navigation-button">
-      <span>← Previous Product</span>
-    </a>
+    <div class="previous-product">
+      <a href="{{ previous_product.url }}" title="Previous Product" class="product-navigation-button">
+        <span>Previous</span>
+        <br>
+        <span>Product</span>
+      </a>
+    </div>
   {% endif %}
 
   {% if next_product %}
-    <a href="{{ next_product.url }}" title="Next Product" class="product-navigation-button">
-      <span>Next Product →</span>
-    </a>
+    <div class="next-product">
+      <a href="{{ next_product.url }}" title="Next Product" class="product-navigation-button">
+        <span>Next</span>
+        <br>
+        <span>Product</span>
+      </a>
+    </div>
   {% endif %}
 </div>
-
