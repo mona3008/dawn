@@ -1,0 +1,45 @@
+{% assign current_product_handle = product.handle %}
+{% assign previous_product = nil %}
+{% assign next_product = nil %}
+{% assign found_current_product = false %}
+
+{% for item in collections.all.products %}
+  {% if found_current_product %}
+    {% unless next_product %}
+      {% assign next_product = item %}
+    {% endunless %}
+  {% endif %}
+
+  {% if item.handle == current_product_handle %}
+    {% assign found_current_product = true %}
+  {% else %}
+    {% unless found_current_product %}
+      {% assign previous_product = item %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
+<style>
+  .product-navigation-button {
+    text-decoration: none;
+    color: black;
+  }
+
+  .product-navigation-button:hover {
+    color: #8b0000;
+  }
+</style>
+
+<div style="display: flex; justify-content: space-between; margin-bottom: 35px; margin-top: 5px; font-family: 'Cinzel', serif;">
+  {% if previous_product %}
+    <a href="{{ previous_product.url }}" title="Previous Product" class="product-navigation-button">
+      <span>← Previous Product</span>
+    </a>
+  {% endif %}
+
+  {% if next_product %}
+    <a href="{{ next_product.url }}" title="Next Product" class="product-navigation-button">
+      <span>Next Product →</span>
+    </a>
+  {% endif %}
+</div>
