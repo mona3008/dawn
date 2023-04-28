@@ -51,6 +51,29 @@
   .product-navigation-button {
     text-decoration: none;
     color: black;
+    position: relative;
+  }
+
+  .product-navigation-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -25px;
+    transform: translateY(-50%);
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid black;
+  }
+
+  .product-navigation-button::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -25px;
+    transform: translateY(-50%);
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid black;
   }
 
   .product-navigation-button:hover {
