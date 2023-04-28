@@ -19,11 +19,19 @@
   {% endif %}
 {% endfor %}
 
+{% capture font_cdn_url %}https://cdn.shopify.com/s/files/1/0266/4521/9925/files/Cinzel-Regular.ttf?v=1{% endcapture %}
+
 <style>
+  @font-face {
+    font-family: 'Cinzel';
+    src: url('{{ font_cdn_url }}') format('truetype');
+  }
+
   .product-navigation-button {
     text-decoration: none;
     color: black;
     font-size: 25px;
+    font-family: 'Cinzel', serif;
   }
 
   .product-navigation-button:hover {
@@ -31,8 +39,7 @@
   }
 </style>
 
-
-<div style="display: flex; justify-content: space-between; margin-bottom: 35px; margin-top: 5px; font-family: 'Cinzel', serif;">
+<div style="display: flex; justify-content: space-between; margin-top: 60px; margin-bottom: 30px; font-family: 'Cinzel', serif;">
   {% if previous_product %}
     <a href="{{ previous_product.url }}" title="Previous Product" class="product-navigation-button">
       <span>← Previous Product</span>
