@@ -22,28 +22,22 @@
 
 <style>
   @font-face {
-    font-family: 'Cinzel Black';
-    font-style: normal;
-    font-weight: 900;
-    src: local('Cinzel Black'), local('Cinzel-Black'), url(https://fonts.gstatic.com/s/cinzelblack/v13/8vIJ7ww63mVu7gtL8Qs.ttf) format('truetype');
+    font-family: 'Cinzel';
+    src: url('{{ font_cdn_url }}') format('truetype');
   }
 
   .product-navigation-button {
     text-decoration: none;
     color: black;
     font-size: 14px;
-    font-family: 'Cinzel Black', serif;
+    font-family: 'Cinzel', black;
+    font-weight: 1200;
   }
 
   .product-navigation-button:hover {
     color: #8b0000;
   }
 </style>
-
-In this example, I used the Google Fonts link in the head section of your theme.liquid file. Then, in the <style> section, I updated the @font-face declaration to reference the "Cinzel Black" font family provided by Google Fonts. I also changed the font-weight value to match the value provided by Google Fonts. Finally, I updated the src property to reference the font file provided by Google Fonts.
-
-Note that you should make sure to use the correct font-weight value for the font you are using, and also make sure to update the src property to point to the correct URL for the font file.
-
 
 <div style="display: flex; justify-content: space-between; margin-top: 10px; margin-bottom: 50px; font-family: 'Cinzel', serif;">
   {% if previous_product %}
