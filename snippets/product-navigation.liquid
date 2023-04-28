@@ -52,9 +52,9 @@
     text-decoration: none;
     color: #8b0000;
     position: relative;
-    padding-left: 10px;
-    padding-right: 10px;
-    transition: color 0.2s, border-bottom-color 0.2s;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: all 0.3s ease;
   }
 
   .previous-product .product-navigation-button::before {
@@ -65,8 +65,8 @@
     transform: translateY(-50%);
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #8b0000;
-    margin-right: 5px;
+    border-right: 5px solid black;
+    margin-right: 10px;
   }
 
   .next-product .product-navigation-button::after {
@@ -77,24 +77,24 @@
     transform: translateY(-50%);
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-left: 5px solid #8b0000;
-    margin-left: 5px;
+    border-left: 5px solid black;
+    margin-left: 10px;
   }
 
   .product-navigation-button:hover {
     color: red;
-    border-bottom: 1px solid red;
+    background-color: transparent;
+    text-decoration: underline;
   }
 
-  .product-navigation-button:hover::before {
+  .previous-product .product-navigation-button:hover::before {
     border-right-color: red;
   }
 
-  .product-navigation-button:hover::after {
+  .next-product .product-navigation-button:hover::after {
     border-left-color: red;
   }
 </style>
-
 
 <div class="product-navigation">
   {% if previous_product %}
@@ -112,4 +112,4 @@
       </a>
     </div>
   {% endif %}
-</
+</div>
