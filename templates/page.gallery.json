@@ -68,26 +68,37 @@
         "5b15f6ee-b1aa-49d1-9540-d3cec8f1d5b0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/romerohollywoodstar.jpg"
           }
         },
         "dc5e01e0-cf72-4501-88dc-8fcecd57783f": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/panelsmile.jpg"
           }
         },
         "2a906f08-dc94-49bc-8b02-c478711bf228": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/jackandknitjackjpg.jpg"
           }
         },
         "5e9ed980-e992-4fed-a0d8-f4d005f74a4a": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Contrast_portrait.jpg"
           }
         },
         "64f58283-6947-4d0d-9379-5eb859292a32": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/playghoul.jpg"
+          }
+        },
+        "e961fe8d-0ec5-476c-9b6e-e0eeafdbbbf0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jacktarman.jpg"
           }
         }
       },
@@ -105,7 +116,8 @@
         "dc5e01e0-cf72-4501-88dc-8fcecd57783f",
         "2a906f08-dc94-49bc-8b02-c478711bf228",
         "5e9ed980-e992-4fed-a0d8-f4d005f74a4a",
-        "64f58283-6947-4d0d-9379-5eb859292a32"
+        "64f58283-6947-4d0d-9379-5eb859292a32",
+        "e961fe8d-0ec5-476c-9b6e-e0eeafdbbbf0"
       ],
       "custom_css": [
         "{margin-top: 20px;}"
