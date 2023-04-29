@@ -29,7 +29,7 @@
         "12d6381e-49a7-42dc-ba06-4f9ec032955c"
       ],
       "custom_css": [
-        "{image-height: 180%; image-width: 100%; margin-top: 20px;}"
+        "{margin-top: 20px;}"
       ],
       "settings": {
         "heading": "",
