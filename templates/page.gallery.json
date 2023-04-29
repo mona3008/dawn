@@ -29,13 +29,13 @@
         "12d6381e-49a7-42dc-ba06-4f9ec032955c"
       ],
       "custom_css": [
-        "{image-height: 100%;}"
+        "{image-height: 100%; margin-top: 20px;}"
       ],
       "settings": {
-        "heading": "<h1>Image Gallery<\/h1>",
+        "heading": "",
         "images_per_row": 5,
         "images_per_row_mobile": 4,
-        "grid_gap": 3,
+        "grid_gap": 0,
         "full_width": true,
         "mobile_slider": true
       }
