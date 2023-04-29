@@ -97,13 +97,13 @@
           "type": "heading",
           "settings": {
             "heading": "The Devil and Sam Silverstein (1976)",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "template--18761110683929__ea2cb205-4e5d-4d41-8b53-028a89691cbc-1682482766adc981f4-1": {
           "type": "text",
           "settings": {
-            "text": "<h5>Also exhibited as <em><strong>My Wife Cut Me Off 40 Years Ago.<\/strong><\/em><\/h5>",
+            "text": "<h5>Also exhibited as <em>My Wife Cut Me Off 40 Years Ago.<\/em><\/h5>",
             "text_style": "body"
           }
         },
@@ -123,7 +123,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/devil-and-sam.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -142,7 +142,7 @@
           "type": "heading",
           "settings": {
             "heading": "THE BOOBY HATCH",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "template--18761110683929__1164a3ae-017b-454d-817a-0de105ee465d-1682482766adc981f4-1": {
@@ -168,8 +168,8 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/booby-hatch.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
+        "desktop_image_width": "small",
+        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
