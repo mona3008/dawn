@@ -193,10 +193,21 @@
         "{margin-top: 20px;}"
       ],
       "settings": {
-        "heading": "",
+        "heading": "<p>Gallery<\/p>",
         "images_per_row": 5,
         "images_per_row_mobile": 4,
         "grid_gap": 0,
+        "full_width": true,
+        "mobile_slider": true
+      }
+    },
+    "75cac2b9-d3d5-4d3c-b2d7-a6bcd1ab97d1": {
+      "type": "image-gallery",
+      "settings": {
+        "heading": "",
+        "images_per_row": 6,
+        "images_per_row_mobile": 4,
+        "grid_gap": 10,
         "full_width": true,
         "mobile_slider": true
       }
@@ -204,6 +215,7 @@
   },
   "order": [
     "main",
-    "2bc840e0-547e-4aaf-8b19-e5cad3b167d6"
+    "2bc840e0-547e-4aaf-8b19-e5cad3b167d6",
+    "75cac2b9-d3d5-4d3c-b2d7-a6bcd1ab97d1"
   ]
 }
