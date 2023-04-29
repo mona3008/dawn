@@ -128,6 +128,36 @@
         "9f2e8a36-5ea2-4dff-b5af-036e55e19303": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/conventionbanner.jpg"
+          }
+        },
+        "56b239c9-b4f3-4c0d-876f-f913db87279b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/closeupunclejohn.jpg"
+          }
+        },
+        "e8870a5a-8b1a-4f91-b3e7-df3b7a5d99ba": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jackruss2023.jpg"
+          }
+        },
+        "a15b27e9-af59-4799-b4e3-3d1c0dc39d17": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Jacktimgary.jpg"
+          }
+        },
+        "d7703fdf-58c1-498e-bfef-7204a37c7525": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jacksigning.jpg"
+          }
+        },
+        "044cd3f6-3d6a-4719-8f3d-811bc821b2f5": {
+          "type": "image",
+          "settings": {
           }
         }
       },
@@ -151,7 +181,12 @@
         "af2858d6-12d8-43f0-8f49-39b4a44c8063",
         "71812219-3229-4c52-a258-08026997e59f",
         "53e243bd-49dc-46cf-9b74-f330f4d9e11a",
-        "9f2e8a36-5ea2-4dff-b5af-036e55e19303"
+        "9f2e8a36-5ea2-4dff-b5af-036e55e19303",
+        "56b239c9-b4f3-4c0d-876f-f913db87279b",
+        "e8870a5a-8b1a-4f91-b3e7-df3b7a5d99ba",
+        "a15b27e9-af59-4799-b4e3-3d1c0dc39d17",
+        "d7703fdf-58c1-498e-bfef-7204a37c7525",
+        "044cd3f6-3d6a-4719-8f3d-811bc821b2f5"
       ],
       "custom_css": [
         "{margin-top: 20px;}"
