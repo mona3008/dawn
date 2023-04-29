@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "Night of the living dead (1968)",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "template--18761110683929__97fd24de-d0c2-4b26-9c6e-ba8f35f374ea-1682482766adc981f4-1": {
@@ -33,7 +33,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/notld-1968-a.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -52,13 +52,13 @@
           "type": "heading",
           "settings": {
             "heading": "There's always vanilla (1971)",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "template--18761110683929__1988e681-8dbb-4713-b232-18d3156af2b4-1682482766adc981f4-1": {
           "type": "text",
           "settings": {
-            "text": "<h4>Re-released as The Affair.<br\/>Filmed as At Play With the Angels.<\/h4>",
+            "text": "<h4>Re-released as <em>The Affair<\/em>.<br\/>Originally filmed as <em>At Play With the Angels<\/em>.<\/h4>",
             "text_style": "body"
           }
         },
@@ -78,8 +78,8 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/theres-always-vanilla.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
+        "desktop_image_width": "small",
+        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
