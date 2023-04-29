@@ -155,10 +155,52 @@
             "image": "shopify:\/\/shop_images\/jacksigning.jpg"
           }
         },
-        "044cd3f6-3d6a-4719-8f3d-811bc821b2f5": {
+        "976f6b6d-9448-4663-ad43-230988ecca66": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/jackwithposter.jpg"
+            "image": "shopify:\/\/shop_images\/Jackdrawings_db003a3b-4f6e-454f-9e85-0a57634ac8a0.jpg"
+          }
+        },
+        "afe8cc73-6d3e-4b9a-aa0a-943c948fd06e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tireironghoul.png"
+          }
+        },
+        "0c4b8ebb-6402-4da9-b982-25011d1b0540": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bannerjack.png"
+          }
+        },
+        "2616f26a-5c59-42c8-839e-483ffb966f27": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cinemawastelandggroup.jpg"
+          }
+        },
+        "abdf6fb1-f408-4392-983e-6d1ef7011352": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jacktilbanner.jpg"
+          }
+        },
+        "c76a7c81-1a93-4a97-b3b2-11cf6151d2a1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jackgarymistychris.jpg"
+          }
+        },
+        "1f2f9d11-d108-4313-979c-7c8f4f3b3f01": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/John-Russo-gives-the-thumbs-up_3.jpg"
+          }
+        },
+        "9ad965f2-6c84-4f30-8465-2141dc45b830": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unclejohninterview.jpg"
           }
         }
       },
@@ -187,7 +229,14 @@
         "e8870a5a-8b1a-4f91-b3e7-df3b7a5d99ba",
         "a15b27e9-af59-4799-b4e3-3d1c0dc39d17",
         "d7703fdf-58c1-498e-bfef-7204a37c7525",
-        "044cd3f6-3d6a-4719-8f3d-811bc821b2f5"
+        "976f6b6d-9448-4663-ad43-230988ecca66",
+        "afe8cc73-6d3e-4b9a-aa0a-943c948fd06e",
+        "0c4b8ebb-6402-4da9-b982-25011d1b0540",
+        "2616f26a-5c59-42c8-839e-483ffb966f27",
+        "abdf6fb1-f408-4392-983e-6d1ef7011352",
+        "c76a7c81-1a93-4a97-b3b2-11cf6151d2a1",
+        "1f2f9d11-d108-4313-979c-7c8f4f3b3f01",
+        "9ad965f2-6c84-4f30-8465-2141dc45b830"
       ],
       "custom_css": [
         "{margin-top: 20px;}"
@@ -203,6 +252,38 @@
     },
     "75cac2b9-d3d5-4d3c-b2d7-a6bcd1ab97d1": {
       "type": "image-gallery",
+      "disabled": true,
+      "blocks": {
+        "ffd2be0f-15dc-4f40-b8a4-4cb451cd7642": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jackmisty.jpg"
+          }
+        },
+        "c20b23e8-e5c6-4a7f-8cbe-ec8267e256e9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/youngjack.jpg"
+          }
+        },
+        "8e97797d-d291-479c-a38e-3e387843afff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/youngishjack.jpg"
+          }
+        },
+        "73f9a793-8132-41de-bf9b-843a0a238b88": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "ffd2be0f-15dc-4f40-b8a4-4cb451cd7642",
+        "c20b23e8-e5c6-4a7f-8cbe-ec8267e256e9",
+        "8e97797d-d291-479c-a38e-3e387843afff",
+        "73f9a793-8132-41de-bf9b-843a0a238b88"
+      ],
       "settings": {
         "heading": "",
         "images_per_row": 6,
