@@ -47,6 +47,46 @@
         "padding_bottom": 32
       }
     },
+    "3c1f8e1c-8503-47b1-bfab-cfde4c9a10b9": {
+      "type": "collection-list",
+      "blocks": {
+        "template--18758768034073__3c1f8e1c-8503-47b1-bfab-cfde4c9a10b9-16827348112cbd055f-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--18758768034073__3c1f8e1c-8503-47b1-bfab-cfde4c9a10b9-16827348112cbd055f-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--18758768034073__3c1f8e1c-8503-47b1-bfab-cfde4c9a10b9-16827348112cbd055f-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18758768034073__3c1f8e1c-8503-47b1-bfab-cfde4c9a10b9-16827348112cbd055f-0",
+        "template--18758768034073__3c1f8e1c-8503-47b1-bfab-cfde4c9a10b9-16827348112cbd055f-1",
+        "template--18758768034073__3c1f8e1c-8503-47b1-bfab-cfde4c9a10b9-16827348112cbd055f-2"
+      ],
+      "settings": {
+        "title": "Featured Categories",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 12
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
@@ -80,6 +120,7 @@
     },
     "collage": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "collection-0": {
           "type": "collection",
@@ -119,6 +160,28 @@
     },
     "e0ba859a-828c-4be1-b412-a77762944550": {
       "type": "slideshow",
+      "blocks": {
+        "c5873821-bf58-46d9-b214-64dfc827a728": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "c5873821-bf58-46d9-b214-64dfc827a728"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
@@ -129,24 +192,14 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
-    },
-    "523db546-1d20-4151-ae41-1576aa369788": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "{% comment %}\n  Define variables for the button's text, link URL, and image URL\n{% endcomment %}\n{% assign buttonText = \"Buy on Amazon\" %}\n{% assign buttonUrl = \"https:\/\/a.co\/d\/iHG0PYB\" %}\n{% assign buttonImage = \"https:\/\/aerodynamicadvisory.com\/wp-content\/uploads\/2018\/11\/buy-on-amazon-button.png\" %}\n\n{% comment %}\n  Generate the HTML for the button\n{% endcomment %}\n{% capture buttonHtml %}\n  <a href=\"{{ buttonUrl }}\" class=\"amazon-button\">\n    <img src=\"{{ buttonImage }}\" alt=\"{{ buttonText }}\">\n    {{ buttonText }}\n  <\/a>\n{% endcapture %}\n\n{% comment %}\n  Output the HTML for the button with the CSS styling\n{% endcomment %}\n<style>\n.amazon-button {\n  display: inline-block;\n  background-size: contain;\n  background-repeat: no-repeat;\n  color: #fff;\n  text-decoration: none;\n  text-transform: uppercase;\n  font-weight: bold;\n  padding: 15px 30px;\n  border-radius: 5px;\n  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);\n}\n\n.amazon-button img {\n  width: 50%;\n  height: auto;\n  display: block;\n}\n<\/style>\n\n{{ buttonHtml }}",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "f374c17b-21f0-4b3b-a1df-a74d062a78e9",
     "3c77b8e4-6109-4473-894e-e65d74f0c962",
+    "3c1f8e1c-8503-47b1-bfab-cfde4c9a10b9",
     "featured_collection",
     "collage",
-    "e0ba859a-828c-4be1-b412-a77762944550",
-    "523db546-1d20-4151-ae41-1576aa369788"
+    "e0ba859a-828c-4be1-b412-a77762944550"
   ]
 }
