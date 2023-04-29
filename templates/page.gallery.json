@@ -22,11 +22,18 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/35406379_10216144382666367_79947766788259840_n.jpg"
           }
+        },
+        "5e6131da-b7e8-4c7c-8417-2b1e2bc40d2a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/38880899_10217115834471771_4121512580734779392_n.jpg"
+          }
         }
       },
       "block_order": [
         "20d2aa60-7548-497e-ae21-c90eca164ee1",
-        "12d6381e-49a7-42dc-ba06-4f9ec032955c"
+        "12d6381e-49a7-42dc-ba06-4f9ec032955c",
+        "5e6131da-b7e8-4c7c-8417-2b1e2bc40d2a"
       ],
       "custom_css": [
         "{margin-top: 20px;}"
