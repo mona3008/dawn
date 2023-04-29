@@ -117,21 +117,6 @@
         "padding_bottom": 36
       }
     },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/MY UNCLE JOHN IS A ZOMBIE Official Trailer (2019) Zombie Comedy Movie.mp4",
-        "video_url": "",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "e0ba859a-828c-4be1-b412-a77762944550": {
       "type": "slideshow",
       "settings": {
@@ -161,7 +146,6 @@
     "3c77b8e4-6109-4473-894e-e65d74f0c962",
     "featured_collection",
     "collage",
-    "video",
     "e0ba859a-828c-4be1-b412-a77762944550",
     "523db546-1d20-4151-ae41-1576aa369788"
   ]
