@@ -158,6 +158,7 @@
         "044cd3f6-3d6a-4719-8f3d-811bc821b2f5": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/jackwithposter.jpg"
           }
         }
       },
