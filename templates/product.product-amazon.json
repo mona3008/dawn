@@ -80,6 +80,12 @@
           "settings": {
             "custom_liquid": ""
           }
+        },
+        "2b769d63-4bc0-4719-a8dc-63611fef4812": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
@@ -94,7 +100,8 @@
         "description",
         "collapsible-row-0",
         "share",
-        "5d56771d-d728-403e-a59a-efbc168dc7c6"
+        "5d56771d-d728-403e-a59a-efbc168dc7c6",
+        "2b769d63-4bc0-4719-a8dc-63611fef4812"
       ],
       "settings": {
         "enable_sticky_info": false,
