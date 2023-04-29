@@ -74,6 +74,30 @@
           "settings": {
             "collection": "uncle-john"
           }
+        },
+        "a26ab335-4747-4ab4-a1de-e2cb30a03846": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "midnight"
+          }
+        },
+        "93dd8384-e42a-46b5-8308-c28e09c4c068": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "screenplays"
+          }
+        },
+        "e44e39c8-36cc-4053-91e7-6b89f2744b0f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "unique"
+          }
+        },
+        "dd60b9cc-e6e0-4dd8-9784-1d855ba93065": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "comedy"
+          }
         }
       },
       "block_order": [
@@ -83,7 +107,11 @@
         "f73cb681-b438-44b1-bbea-aae583c08967",
         "606e507b-7b4d-4c34-822c-f8d057d135e0",
         "68247a72-d20b-4a74-9487-c762de09eb27",
-        "623ab4cb-5743-44d4-b818-94a5be96f4c0"
+        "623ab4cb-5743-44d4-b818-94a5be96f4c0",
+        "a26ab335-4747-4ab4-a1de-e2cb30a03846",
+        "93dd8384-e42a-46b5-8308-c28e09c4c068",
+        "e44e39c8-36cc-4053-91e7-6b89f2744b0f",
+        "dd60b9cc-e6e0-4dd8-9784-1d855ba93065"
       ],
       "settings": {
         "title": "Featured Categories",
