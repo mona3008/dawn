@@ -300,14 +300,11 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".list-menu__item {font-size: 14px;}",
+      ".list-menu__item {font-size: 16px;}",
       ".header {background-color: black;}",
       "header .header__icons svg * {color: #fff;}",
       "#Details-menu-drawer-container .header__icon svg path {fill: #fff;}",
-      "#AddToCart-product-template {color: black !important;}",
-      ".back-button {display: inline-block; padding: 10px 15px; background-color: #fff; border: 1px solid #ccc; border-radius: 4px; text-decoration: none; color: #333; font-size: 16px; font-weight: bold; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);}",
-      ".back-button:hover {background-color: #f5f5f5; border-color: #aaa;}",
-      ".back-button:active {box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3);}"
+      "#AddToCart-product-template {color: black !important;}"
     ]
   }
 }
