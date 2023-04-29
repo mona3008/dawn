@@ -232,6 +232,18 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/84163524_10221010391073536_6386196974185480192_n.jpg"
           }
+        },
+        "07d228eb-15ec-4088-92ca-6904a8cf77ec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/32408439_10215902849588191_5781899417850216448_n.jpg"
+          }
+        },
+        "dd3cc7b2-c9f9-47ed-9e0d-0a43ab464ca4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/35406379_10216144382666367_79947766788259840_n.jpg"
+          }
         }
       },
       "block_order": [
@@ -271,7 +283,9 @@
         "de1bb5d3-b41d-4602-9cc2-8efc7cebf352",
         "851f909d-dfda-4cf4-a995-b1e4022526e3",
         "90555e4e-756a-4b3d-bca7-a09a4b5577e7",
-        "50ec1639-00d2-4725-a39c-64d5ebafb141"
+        "50ec1639-00d2-4725-a39c-64d5ebafb141",
+        "07d228eb-15ec-4088-92ca-6904a8cf77ec",
+        "dd3cc7b2-c9f9-47ed-9e0d-0a43ab464ca4"
       ],
       "custom_css": [
         "{margin-top: 20px;}"
@@ -284,54 +298,10 @@
         "full_width": true,
         "mobile_slider": true
       }
-    },
-    "75cac2b9-d3d5-4d3c-b2d7-a6bcd1ab97d1": {
-      "type": "image-gallery",
-      "disabled": true,
-      "blocks": {
-        "ffd2be0f-15dc-4f40-b8a4-4cb451cd7642": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/jackmisty.jpg"
-          }
-        },
-        "c20b23e8-e5c6-4a7f-8cbe-ec8267e256e9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/youngjack.jpg"
-          }
-        },
-        "8e97797d-d291-479c-a38e-3e387843afff": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/youngishjack.jpg"
-          }
-        },
-        "73f9a793-8132-41de-bf9b-843a0a238b88": {
-          "type": "image",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "ffd2be0f-15dc-4f40-b8a4-4cb451cd7642",
-        "c20b23e8-e5c6-4a7f-8cbe-ec8267e256e9",
-        "8e97797d-d291-479c-a38e-3e387843afff",
-        "73f9a793-8132-41de-bf9b-843a0a238b88"
-      ],
-      "settings": {
-        "heading": "",
-        "images_per_row": 6,
-        "images_per_row_mobile": 4,
-        "grid_gap": 10,
-        "full_width": true,
-        "mobile_slider": true
-      }
     }
   },
   "order": [
     "main",
-    "2bc840e0-547e-4aaf-8b19-e5cad3b167d6",
-    "75cac2b9-d3d5-4d3c-b2d7-a6bcd1ab97d1"
+    "2bc840e0-547e-4aaf-8b19-e5cad3b167d6"
   ]
 }
