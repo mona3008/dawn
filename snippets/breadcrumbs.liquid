@@ -1,0 +1,84 @@
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol class="breadcrumb-list" id="breadcrumb-list">
+    <!-- Breadcrumbs will be generated using JavaScript -->
+  </ol>
+</nav>
+
+<style>
+.breadcrumb {
+  text-align: left;
+}
+
+.breadcrumb-list {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.breadcrumb-divider {
+  margin: 0 5px;
+}
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const breadcrumbs = [];
+
+    // Home
+    breadcrumbs.push({
+      title: "{{ 'general.breadcrumbs.home' | t }}",
+      url: "/"
+    });
+
+    // Collection
+    {% if collection or product %}
+      breadcrumbs.push({
+        title: "{{ collection.title }}",
+        url: "/collections/{{ collection.handle }}"
+      });
+    {% endif %}
+
+    // Product
+    {% if product %}
+      breadcrumbs.push({
+        title: "{{ product.title }}",
+        url: "/products/{{ product.handle }}"
+      });
+    {% endif %}
+
+    const breadcrumbList = document.getElementById("breadcrumb-list");
+
+    breadcrumbs.forEach((breadcrumb, index) => {
+      const listItem = document.createElement("li");
+      listItem.classList.add("breadcrumb-item");
+
+      const link = document.createElement("a");
+      link.href = breadcrumb.url;
+      link.title = breadcrumb.title;
+      link.textContent = breadcrumb.title;
+
+      listItem.appendChild(link);
+
+      if (index < breadcrumbs.length - 1) {
+        const divider = document.createElement("span");
+        divider.classList.add("breadcrumb-divider");
+        divider.innerHTML = "&rsaquo;";
+        listItem.appendChild(divider);
+      }
+
+      breadcrumbList.appendChild(listItem);
+    });
+    
+    // Show entire navigation path
+    const breadcrumbLinks = breadcrumbList.querySelectorAll('a');
+    for (let i = 0; i < breadcrumbLinks.length; i++) {
+      breadcrumbLinks[i].setAttribute('aria-current', 'page');
+    }
+  });
+</script>
