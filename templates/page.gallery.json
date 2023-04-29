@@ -14,7 +14,7 @@
         "20d2aa60-7548-497e-ae21-c90eca164ee1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/84042115_10221010380993284_5420804208557293568_n.jpg"
+            "image": "shopify:\/\/shop_images\/Romero_Lives_Fulton.jpg"
           }
         },
         "12d6381e-49a7-42dc-ba06-4f9ec032955c": {
@@ -28,12 +28,49 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/38880899_10217115834471771_4121512580734779392_n.jpg"
           }
+        },
+        "6cb104e0-eb90-4e63-bbeb-57759530f24a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/conventiongoofy.jpg"
+          }
+        },
+        "d6651a78-e770-4cfe-846c-ad0f86ad98b9": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "c9993bc4-9040-421c-a922-0fff0295abce": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "1ed22ce9-d6a7-460a-81f0-517279a18c5f": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "7c30af1e-6e57-4419-a738-a48ec7a6dce1": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "872a9d43-a981-4a0b-85b8-4b06e3eebc10": {
+          "type": "image",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "20d2aa60-7548-497e-ae21-c90eca164ee1",
         "12d6381e-49a7-42dc-ba06-4f9ec032955c",
-        "5e6131da-b7e8-4c7c-8417-2b1e2bc40d2a"
+        "5e6131da-b7e8-4c7c-8417-2b1e2bc40d2a",
+        "6cb104e0-eb90-4e63-bbeb-57759530f24a",
+        "d6651a78-e770-4cfe-846c-ad0f86ad98b9",
+        "c9993bc4-9040-421c-a922-0fff0295abce",
+        "1ed22ce9-d6a7-460a-81f0-517279a18c5f",
+        "7c30af1e-6e57-4419-a738-a48ec7a6dce1",
+        "872a9d43-a981-4a0b-85b8-4b06e3eebc10"
       ],
       "custom_css": [
         "{margin-top: 20px;}"
