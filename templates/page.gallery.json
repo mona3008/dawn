@@ -100,6 +100,35 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/jacktarman.jpg"
           }
+        },
+        "466309dd-acf9-45e7-a54a-556422371d5a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/conventionwideportrait.jpg"
+          }
+        },
+        "af2858d6-12d8-43f0-8f49-39b4a44c8063": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jackandjackdrawing.jpg"
+          }
+        },
+        "71812219-3229-4c52-a258-08026997e59f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/clap.jpg"
+          }
+        },
+        "53e243bd-49dc-46cf-9b74-f330f4d9e11a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/latentimage.jpg"
+          }
+        },
+        "9f2e8a36-5ea2-4dff-b5af-036e55e19303": {
+          "type": "image",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -117,7 +146,12 @@
         "2a906f08-dc94-49bc-8b02-c478711bf228",
         "5e9ed980-e992-4fed-a0d8-f4d005f74a4a",
         "64f58283-6947-4d0d-9379-5eb859292a32",
-        "e961fe8d-0ec5-476c-9b6e-e0eeafdbbbf0"
+        "e961fe8d-0ec5-476c-9b6e-e0eeafdbbbf0",
+        "466309dd-acf9-45e7-a54a-556422371d5a",
+        "af2858d6-12d8-43f0-8f49-39b4a44c8063",
+        "71812219-3229-4c52-a258-08026997e59f",
+        "53e243bd-49dc-46cf-9b74-f330f4d9e11a",
+        "9f2e8a36-5ea2-4dff-b5af-036e55e19303"
       ],
       "custom_css": [
         "{margin-top: 20px;}"
