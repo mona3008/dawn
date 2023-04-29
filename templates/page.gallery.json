@@ -26,7 +26,7 @@
         "5e6131da-b7e8-4c7c-8417-2b1e2bc40d2a": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/38880899_10217115834471771_4121512580734779392_n.jpg"
+            "image": "shopify:\/\/shop_images\/jackwithcake.jpg"
           }
         },
         "6cb104e0-eb90-4e63-bbeb-57759530f24a": {
@@ -38,24 +38,54 @@
         "d6651a78-e770-4cfe-846c-ad0f86ad98b9": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/russomafia.png"
           }
         },
         "c9993bc4-9040-421c-a922-0fff0295abce": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/silverscreamfest.png"
           }
         },
         "1ed22ce9-d6a7-460a-81f0-517279a18c5f": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/notld50thgroup.jpg"
           }
         },
         "7c30af1e-6e57-4419-a738-a48ec7a6dce1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/jackandrotld.jpg"
           }
         },
         "872a9d43-a981-4a0b-85b8-4b06e3eebc10": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1968_Russo.jpg"
+          }
+        },
+        "5b15f6ee-b1aa-49d1-9540-d3cec8f1d5b0": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "dc5e01e0-cf72-4501-88dc-8fcecd57783f": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "2a906f08-dc94-49bc-8b02-c478711bf228": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "5e9ed980-e992-4fed-a0d8-f4d005f74a4a": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "64f58283-6947-4d0d-9379-5eb859292a32": {
           "type": "image",
           "settings": {
           }
@@ -70,7 +100,12 @@
         "c9993bc4-9040-421c-a922-0fff0295abce",
         "1ed22ce9-d6a7-460a-81f0-517279a18c5f",
         "7c30af1e-6e57-4419-a738-a48ec7a6dce1",
-        "872a9d43-a981-4a0b-85b8-4b06e3eebc10"
+        "872a9d43-a981-4a0b-85b8-4b06e3eebc10",
+        "5b15f6ee-b1aa-49d1-9540-d3cec8f1d5b0",
+        "dc5e01e0-cf72-4501-88dc-8fcecd57783f",
+        "2a906f08-dc94-49bc-8b02-c478711bf228",
+        "5e9ed980-e992-4fed-a0d8-f4d005f74a4a",
+        "64f58283-6947-4d0d-9379-5eb859292a32"
       ],
       "custom_css": [
         "{margin-top: 20px;}"
