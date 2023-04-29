@@ -120,16 +120,21 @@ Image Gallery by Marcos Watanabe (https://marcoswatanabe.com/)
   object-fit: contain;
   cursor: pointer;
   position: relative;
-  cursor:pointer;
 }
-  
+
+.mw-image-gallery a:hover img {
+  transform: scale(1.1);
+}
+
 .mw-image-gallery img {
   width: 100%;
   height: 100%;
   object-fit: contain;
   cursor: pointer;
   position: absolute;
+  transition: transform 0.2s ease-in-out;
 }
+
 
 /* Modal popup */
 .mw-modal {
