@@ -32,7 +32,7 @@
           "type": "buy_buttons",
           "disabled": true,
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
           }
         },
@@ -74,13 +74,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "1979a8a8-b7df-4bca-b7b4-43fb7fecc3b1": {
-          "type": "text",
-          "settings": {
-            "text": "Text block",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
@@ -94,8 +87,7 @@
         "quantity_selector",
         "description",
         "collapsible-row-0",
-        "share",
-        "1979a8a8-b7df-4bca-b7b4-43fb7fecc3b1"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": false,
