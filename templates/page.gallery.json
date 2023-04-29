@@ -36,7 +36,7 @@
         "5e6131da-b7e8-4c7c-8417-2b1e2bc40d2a"
       ],
       "custom_css": [
-        "{margin-top: 20px;}"
+        "{margin-top: 20px; height: 80%;}"
       ],
       "settings": {
         "heading": "",
