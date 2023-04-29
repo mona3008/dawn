@@ -2,23 +2,6 @@
   "sections": {
     "f374c17b-21f0-4b3b-a1df-a74d062a78e9": {
       "type": "image-banner",
-      "blocks": {
-        "template--18758768034073__f374c17b-21f0-4b3b-a1df-a74d062a78e9-1682417198f225518f-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Categories",
-            "button_link_1": "shopify:\/\/collections",
-            "button_style_secondary_1": false,
-            "button_label_2": "Products",
-            "button_link_2": "shopify:\/\/collections\/all",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--18758768034073__f374c17b-21f0-4b3b-a1df-a74d062a78e9-1682417198f225518f-2"
-      ],
       "custom_css": [
         ".banner__content .button {background: #ae0303; color: #fff;}",
         ".banner__content .button::after {display: none !important;}",
@@ -73,13 +56,34 @@
           "settings": {
             "collection": "photographs"
           }
+        },
+        "606e507b-7b4d-4c34-822c-f8d057d135e0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "posters"
+          }
+        },
+        "68247a72-d20b-4a74-9487-c762de09eb27": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "books"
+          }
+        },
+        "623ab4cb-5743-44d4-b818-94a5be96f4c0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "uncle-john"
+          }
         }
       },
       "block_order": [
         "template--18758768034073__3c1f8e1c-8503-47b1-bfab-cfde4c9a10b9-16827348112cbd055f-0",
         "template--18758768034073__3c1f8e1c-8503-47b1-bfab-cfde4c9a10b9-16827348112cbd055f-1",
         "template--18758768034073__3c1f8e1c-8503-47b1-bfab-cfde4c9a10b9-16827348112cbd055f-2",
-        "f73cb681-b438-44b1-bbea-aae583c08967"
+        "f73cb681-b438-44b1-bbea-aae583c08967",
+        "606e507b-7b4d-4c34-822c-f8d057d135e0",
+        "68247a72-d20b-4a74-9487-c762de09eb27",
+        "623ab4cb-5743-44d4-b818-94a5be96f4c0"
       ],
       "settings": {
         "title": "Featured Categories",
