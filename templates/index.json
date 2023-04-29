@@ -59,20 +59,27 @@
         "template--18758768034073__3c1f8e1c-8503-47b1-bfab-cfde4c9a10b9-16827348112cbd055f-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "filmmaking"
           }
         },
         "template--18758768034073__3c1f8e1c-8503-47b1-bfab-cfde4c9a10b9-16827348112cbd055f-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "night-of-the-living-dead"
+          }
+        },
+        "f73cb681-b438-44b1-bbea-aae583c08967": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "photographs"
           }
         }
       },
       "block_order": [
         "template--18758768034073__3c1f8e1c-8503-47b1-bfab-cfde4c9a10b9-16827348112cbd055f-0",
         "template--18758768034073__3c1f8e1c-8503-47b1-bfab-cfde4c9a10b9-16827348112cbd055f-1",
-        "template--18758768034073__3c1f8e1c-8503-47b1-bfab-cfde4c9a10b9-16827348112cbd055f-2"
+        "template--18758768034073__3c1f8e1c-8503-47b1-bfab-cfde4c9a10b9-16827348112cbd055f-2",
+        "f73cb681-b438-44b1-bbea-aae583c08967"
       ],
       "settings": {
         "title": "Featured Categories",
