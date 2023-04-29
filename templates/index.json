@@ -43,8 +43,8 @@
       "settings": {
         "custom_liquid": "<div class=\"button-container\">\n  <a href=\"\/collections\/all\" class=\"button\">Products<\/a>\n  <a href=\"\/collections\" class=\"button\">Categories<\/a>\n<\/div>\n\n<style>\n.button-container {\n  text-align: center;\n}\n\n.button {\n  background-color: #bb0000;\n  color: #fff;\n  font-family: Futura, sans-serif;\n  font-size: 20px;\n  border: none;\n  border-radius: 5px;\n  cursor: pointer;\n  text-decoration: none;\n  display: inline-block;\n  width: 200px;\n  height: 50px;\n  line-height: 50px;\n  margin-right: 10px;\n  transition: background-color 0.3s ease; \/* add transition effect *\/\n}\n\n.button:hover {\n  background-color: black; \/* change background color on hover *\/\n}\n<\/style>",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 24,
+        "padding_bottom": 32
       }
     },
     "featured_collection": {
