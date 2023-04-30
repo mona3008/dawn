@@ -7,7 +7,7 @@
   {% if found_current_product %}
     {% unless next_product %}
       {% assign next_product = item %}
-        {% if collection.handle == 'audiobooks' %}
+        {% if collection.handle in collections.all.products == 'audiobooks' %}
     {% assign exclude_collection = true %}
     {% break %}
   {% endif %}
