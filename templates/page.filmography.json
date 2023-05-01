@@ -40,7 +40,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Night_of_the_Living_Dead_1968.jpg",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
