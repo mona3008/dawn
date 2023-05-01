@@ -39,9 +39,9 @@
         "template--18833141268761__26a882ed-63c7-4f6c-b568-295e599d2063-168291175427a310c6-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/notldposter.jpg",
+        "image": "shopify:\/\/shop_images\/My_project.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
