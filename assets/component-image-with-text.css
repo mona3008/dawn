@@ -13,12 +13,12 @@
 }
 
 .image-with-text__media {
-  min-height: 100%;
+  min-height: 80%;
   overflow: visible;
 }
 
 .image-with-text__media--small {
-  height: 19.4rem;
+  height: 10.4rem;
 }
 
 .image-with-text__media--medium {
