@@ -1,3 +1,24 @@
+{% assign current_product_handle = product.handle %}
+{% assign previous_product = nil %}
+{% assign next_product = nil %}
+{% assign found_current_product = false %}
+
+{% for item in collections.all.products %}
+  {% if found_current_product %}
+    {% unless next_product %}
+      {% assign next_product = item %}
+    {% endunless %}
+  {% endif %}
+
+  {% if item.handle == current_product_handle %}
+    {% assign found_current_product = true %}
+  {% else %}
+    {% unless found_current_product %}
+      {% assign previous_product = item %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap" rel="stylesheet">
@@ -74,6 +95,7 @@
   }
 </style>
 
+
 <div class="product-navigation">
   {% if previous_product %}
     <div class="previous-product">
@@ -90,12 +112,4 @@
       </a>
     </div>
   {% endif %}
-</div>
-
-{% comment %}
-  Here is the product code that was previously below the navigation.
-{% endcomment %}
-
-<div class="product">
-  {{ product.description }}
-</div>
+</
