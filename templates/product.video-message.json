@@ -62,6 +62,7 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Product Details",
             "icon": "none",
@@ -94,10 +95,10 @@
         "media_size": "small",
         "constrain_to_viewport": false,
         "media_fit": "cover",
-        "gallery_layout": "columns",
+        "gallery_layout": "stacked",
         "media_position": "left",
-        "image_zoom": "hover",
-        "mobile_thumbnails": "show",
+        "image_zoom": "none",
+        "mobile_thumbnails": "hide",
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
