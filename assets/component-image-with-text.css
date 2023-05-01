@@ -57,12 +57,12 @@
 }
 
 .image-with-text__media--placeholder.image-with-text__media--adapt {
-  height: 20rem;
+  height: 10rem;
 }
 
 @media screen and (min-width: 750px) {
   .image-with-text__media--placeholder.image-with-text__media--adapt {
-    height: 30rem;
+    height: 20rem;
   }
 }
 
@@ -93,7 +93,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 80%;
   z-index: -1;
 }
 
