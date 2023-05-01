@@ -7,10 +7,10 @@
   {% if found_current_product %}
     {% unless next_product %}
       {% assign next_product = item %}
-        {% if collection.handle in collections.all.products == 'audiobooks' %}
-    {% assign exclude_collection = true %}
-    {% break %}
-  {% endif %}
+      {% if collection.handle contains 'audiobooks' %}
+        {% assign exclude_collection = true %}
+        {% break %}
+      {% endif %}
     {% endunless %}
   {% endif %}
 
@@ -111,9 +111,10 @@
 
   {% if next_product %}
     <div class="next-product">
-      <a href="{{ next_product.url }}" title="Next Product" class="product-navigation-button">
+      <a href="{{ next_product.url }}" title="Next Product" class="product
+-navigation-button">
         <span>Next</span>
       </a>
     </div>
   {% endif %}
-</
+</div>
