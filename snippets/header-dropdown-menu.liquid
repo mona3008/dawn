@@ -1,17 +1,10 @@
-{% comment %}
-  Renders a standard dropdown style menu for the header.
-
-  Usage:
-  {% render 'header-dropdown-menu' %}
-{% endcomment %}
-
 <nav class="header__inline-menu">
   <ul class="list-menu list-menu--inline" role="list">
     {%- for link in section.settings.menu.links -%}
       <li>
         {%- if link.links != blank -%}
           <header-menu>
-            <details id="Details-HeaderMenu-{{ forloop.index }}">
+            <details>
               <summary
                 id="HeaderMenu-{{ link.handle }}"
                 class="header__menu-item list-menu__item link focus-inset"
@@ -29,7 +22,6 @@
                 id="HeaderMenu-MenuList-{{ forloop.index }}"
                 class="header__submenu list-menu list-menu--disclosure gradient caption-large motion-reduce global-settings-popup"
                 role="list"
-                tabindex="-1"
               >
                 {%- for childlink in link.links -%}
                   <li>
@@ -45,7 +37,7 @@
                         {{ childlink.title | escape }}
                       </a>
                     {%- else -%}
-                      <details id="Details-HeaderSubMenu-{{ link.handle }}-{{ childlink.handle }}">
+                      <details>
                         <summary
                           id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
                           class="header__menu-item link link--text list-menu__item focus-inset caption-large"
@@ -101,3 +93,4 @@
     {%- endfor -%}
   </ul>
 </nav>
+
