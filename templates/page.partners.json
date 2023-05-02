@@ -6,32 +6,9 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "59141f7e-6601-404a-835a-c2d5a84c93d4": {
-      "type": "image-gallery",
-      "blocks": {
-        "9f46a46c-1b17-4e48-890e-b2fa500d6cfc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Wolfpack_Publishing_Logo_366x400_jpg.webp"
-          }
-        }
-      },
-      "block_order": [
-        "9f46a46c-1b17-4e48-890e-b2fa500d6cfc"
-      ],
-      "settings": {
-        "heading": "",
-        "images_per_row": 3,
-        "images_per_row_mobile": 3,
-        "grid_gap": 10,
-        "full_width": true,
-        "mobile_slider": true
-      }
     }
   },
   "order": [
-    "main",
-    "59141f7e-6601-404a-835a-c2d5a84c93d4"
+    "main"
   ]
 }
