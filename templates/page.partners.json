@@ -10,22 +10,29 @@
     "852aa88b-03bd-4b64-99a7-33528e7d37d7": {
       "type": "image-gallery",
       "blocks": {
-        "b75c0a82-995e-43c6-867e-8a30c6ff25ee": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/i10_logo.png"
-          }
-        },
         "2ecec39c-05b2-4fac-b7ab-ecf1809cd4ca": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/ba018b_26479bac81fc48539a8bd3b6c1c37893_mv2.webp"
           }
+        },
+        "734f7898-14a2-4e32-8a24-133112624e61": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/burning_bulb_publishing_jpg.webp"
+          }
+        },
+        "acb901f2-8cd5-4a36-b83a-5717d74248d0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wolfpack_Publishing_Logo_366x400_jpg.webp"
+          }
         }
       },
       "block_order": [
-        "b75c0a82-995e-43c6-867e-8a30c6ff25ee",
-        "2ecec39c-05b2-4fac-b7ab-ecf1809cd4ca"
+        "2ecec39c-05b2-4fac-b7ab-ecf1809cd4ca",
+        "734f7898-14a2-4e32-8a24-133112624e61",
+        "acb901f2-8cd5-4a36-b83a-5717d74248d0"
       ],
       "settings": {
         "heading": "",
