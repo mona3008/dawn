@@ -94,3 +94,7 @@
 .list-menu--disclosure > ul {
   display: none;
 }
+                           .header__submenu:hover {
+  display: block;
+}
+
