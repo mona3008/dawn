@@ -27,12 +27,19 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Wolfpack_Publishing_Logo_366x400_jpg.webp"
           }
+        },
+        "e8fffd15-6c56-49ab-993c-4e2386642704": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/capricornlogo.jpg"
+          }
         }
       },
       "block_order": [
         "2ecec39c-05b2-4fac-b7ab-ecf1809cd4ca",
         "734f7898-14a2-4e32-8a24-133112624e61",
-        "acb901f2-8cd5-4a36-b83a-5717d74248d0"
+        "acb901f2-8cd5-4a36-b83a-5717d74248d0",
+        "e8fffd15-6c56-49ab-993c-4e2386642704"
       ],
       "settings": {
         "heading": "",
