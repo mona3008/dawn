@@ -87,13 +87,13 @@
                         {% render 'icon-caret' %}
                       </summary>
                       <ul
-                        id="HeaderMenu-SubMenuList-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
+                        id="HeaderMenu-SubMenuList-{{ link.handle }}-{{ childlink.handle }}"
                         class="header__submenu list-menu motion-reduce"
                       >
                         {%- for grandchildlink in childlink.links -%}
                           <li>
                             <a
-                              id="HeaderMenu-{{ link.handle{{- childlink.handle }}-{{ grandchildlink.handle }}"
+                              id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
                               href="{{ grandchildlink.url }}"
                               class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if grandchildlink.current %} list-menu__item--active{% endif %}"
                               {% if grandchildlink.current %}
@@ -133,4 +133,3 @@
     {%- endfor -%}
   </ul>
 </nav>
-
