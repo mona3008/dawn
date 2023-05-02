@@ -6,9 +6,39 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "852aa88b-03bd-4b64-99a7-33528e7d37d7": {
+      "type": "image-gallery",
+      "blocks": {
+        "b75c0a82-995e-43c6-867e-8a30c6ff25ee": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/i10_logo.png"
+          }
+        },
+        "2ecec39c-05b2-4fac-b7ab-ecf1809cd4ca": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ba018b_26479bac81fc48539a8bd3b6c1c37893_mv2.webp"
+          }
+        }
+      },
+      "block_order": [
+        "b75c0a82-995e-43c6-867e-8a30c6ff25ee",
+        "2ecec39c-05b2-4fac-b7ab-ecf1809cd4ca"
+      ],
+      "settings": {
+        "heading": "",
+        "images_per_row": 3,
+        "images_per_row_mobile": 3,
+        "grid_gap": 10,
+        "full_width": true,
+        "mobile_slider": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "852aa88b-03bd-4b64-99a7-33528e7d37d7"
   ]
 }
