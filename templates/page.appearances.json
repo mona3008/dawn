@@ -6,9 +6,66 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "5544534a-9c80-4d85-9a94-11db0f1ea9c6": {
+      "type": "multirow",
+      "blocks": {
+        "template--18859836178713__5544534a-9c80-4d85-9a94-11db0f1ea9c6-1683086613197fd451-0": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JOHN_RUSSO-58f1e4c.webp",
+            "caption": "Chattanooga, TN",
+            "heading": "Metroham Con",
+            "text": "<p>May 12th - 14th, 2023<\/p>",
+            "button_label": "Learn more!",
+            "button_link": "https:\/\/metrothamcon.com\/"
+          }
+        },
+        "template--18859836178713__5544534a-9c80-4d85-9a94-11db0f1ea9c6-1683086613197fd451-1": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "template--18859836178713__5544534a-9c80-4d85-9a94-11db0f1ea9c6-1683086613197fd451-2": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18859836178713__5544534a-9c80-4d85-9a94-11db0f1ea9c6-1683086613197fd451-0",
+        "template--18859836178713__5544534a-9c80-4d85-9a94-11db0f1ea9c6-1683086613197fd451-1",
+        "template--18859836178713__5544534a-9c80-4d85-9a94-11db0f1ea9c6-1683086613197fd451-2"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "5544534a-9c80-4d85-9a94-11db0f1ea9c6"
   ]
 }
