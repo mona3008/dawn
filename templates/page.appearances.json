@@ -64,6 +64,17 @@
             "button_label": "Learn more!",
             "button_link": "https:\/\/www.finalbosscon.com\/"
           }
+        },
+        "2851d1f4-d386-406e-8ac7-90076f761c98": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mcn.jpg",
+            "caption": "Novi, MI",
+            "heading": "Motor City Nightmares",
+            "text": "<p>July 30th - August 1st, 2023<\/p>",
+            "button_label": "Learn more!",
+            "button_link": "https:\/\/www.motorcitynightmares.com\/"
+          }
         }
       },
       "block_order": [
@@ -71,7 +82,8 @@
         "template--18859836178713__5544534a-9c80-4d85-9a94-11db0f1ea9c6-1683086613197fd451-1",
         "template--18859836178713__5544534a-9c80-4d85-9a94-11db0f1ea9c6-1683086613197fd451-2",
         "d200278c-39d6-4553-9514-3bfef246bc79",
-        "e1e171d6-7390-4bb8-8b3a-63d60b97c077"
+        "e1e171d6-7390-4bb8-8b3a-63d60b97c077",
+        "2851d1f4-d386-406e-8ac7-90076f761c98"
       ],
       "settings": {
         "image_height": "adapt",
