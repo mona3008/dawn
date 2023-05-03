@@ -11,6 +11,14 @@
     "26a882ed-63c7-4f6c-b568-295e599d2063": {
       "type": "image-with-text",
       "blocks": {
+        "54355c3a-79a8-479b-bc4c-0a3b96f315a6": {
+          "type": "caption",
+          "settings": {
+            "caption": "1968",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
         "template--18833141268761__26a882ed-63c7-4f6c-b568-295e599d2063-168291175427a310c6-0": {
           "type": "heading",
           "settings": {
@@ -34,6 +42,7 @@
         }
       },
       "block_order": [
+        "54355c3a-79a8-479b-bc4c-0a3b96f315a6",
         "template--18833141268761__26a882ed-63c7-4f6c-b568-295e599d2063-168291175427a310c6-0",
         "template--18833141268761__26a882ed-63c7-4f6c-b568-295e599d2063-168291175427a310c6-1",
         "template--18833141268761__26a882ed-63c7-4f6c-b568-295e599d2063-168291175427a310c6-2"
