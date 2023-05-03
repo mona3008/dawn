@@ -244,6 +244,35 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/35406379_10216144382666367_79947766788259840_n.jpg"
           }
+        },
+        "3d0a7728-0fcc-42aa-9767-d721aadaffef": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/russocamera.webp"
+          }
+        },
+        "ccb7c9ee-b6e4-4cc5-bccc-35a776dab2ff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/russo_presenting.webp"
+          }
+        },
+        "184e52a1-fccf-4b49-b1db-8fb67e29a1dd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10430828_1557280817882048_2648149666422422647_n.jpg"
+          }
+        },
+        "cd538943-e8d1-4eaa-9c4c-19d3e7d83d14": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/107791059_10158571171374248_470847731528318282_n.jpg"
+          }
+        },
+        "71c7d3a8-dbdd-4f10-b81b-134e6c2838bb": {
+          "type": "image",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -285,7 +314,12 @@
         "90555e4e-756a-4b3d-bca7-a09a4b5577e7",
         "50ec1639-00d2-4725-a39c-64d5ebafb141",
         "07d228eb-15ec-4088-92ca-6904a8cf77ec",
-        "dd3cc7b2-c9f9-47ed-9e0d-0a43ab464ca4"
+        "dd3cc7b2-c9f9-47ed-9e0d-0a43ab464ca4",
+        "3d0a7728-0fcc-42aa-9767-d721aadaffef",
+        "ccb7c9ee-b6e4-4cc5-bccc-35a776dab2ff",
+        "184e52a1-fccf-4b49-b1db-8fb67e29a1dd",
+        "cd538943-e8d1-4eaa-9c4c-19d3e7d83d14",
+        "71c7d3a8-dbdd-4f10-b81b-134e6c2838bb"
       ],
       "custom_css": [
         "{margin-top: 20px;}"
