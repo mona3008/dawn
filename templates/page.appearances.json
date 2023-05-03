@@ -86,6 +86,16 @@
             "button_label": "Learn more!",
             "button_link": "http:\/\/www.creaturescon.com\/"
           }
+        },
+        "ab6ef9e9-60eb-4acc-ad42-438d487f4b75": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "SC Horror Con",
+            "text": "<p>September 16th - 17th, 2023<\/p>",
+            "button_label": "Learn more!",
+            "button_link": "https:\/\/schorror.com\/"
+          }
         }
       },
       "block_order": [
@@ -95,7 +105,8 @@
         "d200278c-39d6-4553-9514-3bfef246bc79",
         "e1e171d6-7390-4bb8-8b3a-63d60b97c077",
         "2851d1f4-d386-406e-8ac7-90076f761c98",
-        "d7435854-51b3-4647-8655-d10d1f5d04e8"
+        "d7435854-51b3-4647-8655-d10d1f5d04e8",
+        "ab6ef9e9-60eb-4acc-ad42-438d487f4b75"
       ],
       "settings": {
         "image_height": "adapt",
