@@ -46,11 +46,7 @@
     {%- endcomment -%}
     <div class="price__regular">
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
-      {% unless product.tags contains 'manual' %}
-  <span class="price-item price-item--regular {{ price_class }}">{{ product.price | money }}</span>
-{% endunless %}
-
-
+      <span class="price-item price-item--regular">
         {{ money_price }}
       </span>
     </div>
