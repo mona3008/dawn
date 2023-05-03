@@ -11,10 +11,18 @@
             "heading": "Quick links",
             "menu": "footer"
           }
+        },
+        "ae62a303-c88c-4453-a8f2-8270946025ad": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": "<p>Russo holds up a mirror to contemporary society that we don’t really like to look into. <em>- Russ Streiner<\/em><\/p><p><\/p><p><\/p>"
+          }
         }
       },
       "block_order": [
-        "footer-0"
+        "footer-0",
+        "ae62a303-c88c-4453-a8f2-8270946025ad"
       ],
       "settings": {
         "color_scheme": "background-1",
