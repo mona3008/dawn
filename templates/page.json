@@ -6,9 +6,26 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "fc1acdf9-135d-4697-af7d-4863bddc6e2b": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/under-construction-sign-work-computer-humor-funny-text-maintenance-wallpaper-website-web-1974844094.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "fc1acdf9-135d-4697-af7d-4863bddc6e2b"
   ]
 }
