@@ -14,14 +14,14 @@
         "template--18833141268761__26a882ed-63c7-4f6c-b568-295e599d2063-168291175427a310c6-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Night of the living dead",
             "heading_size": "h1"
           }
         },
         "template--18833141268761__26a882ed-63c7-4f6c-b568-295e599d2063-168291175427a310c6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "text_style": "body"
           }
         },
