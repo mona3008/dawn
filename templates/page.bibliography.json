@@ -629,19 +629,11 @@
             "text": "<p>How many are destined to die at the hands of evil?<\/p>",
             "text_style": "body"
           }
-        },
-        "template--18761085354265__4d7709aa-a5d7-41e9-9ff6-00bfb4f1eeb5-16824184578750e9f3-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Buy a copy",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "template--18761085354265__4d7709aa-a5d7-41e9-9ff6-00bfb4f1eeb5-16824184578750e9f3-0",
-        "template--18761085354265__4d7709aa-a5d7-41e9-9ff6-00bfb4f1eeb5-16824184578750e9f3-1",
-        "template--18761085354265__4d7709aa-a5d7-41e9-9ff6-00bfb4f1eeb5-16824184578750e9f3-2"
+        "template--18761085354265__4d7709aa-a5d7-41e9-9ff6-00bfb4f1eeb5-16824184578750e9f3-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/HELLSCREATION_ad54e77a-42a7-4032-b1d7-e3151d8a6bfc.jpg",
