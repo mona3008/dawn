@@ -342,7 +342,7 @@
         "template--18761085354265__a3e29e86-4fdc-4757-95f3-7d5e634604f0-16824184578750e9f3-2": {
           "type": "button",
           "settings": {
-            "button_label": "Buy a copy",
+            "button_label": "",
             "button_link": ""
           }
         }
@@ -387,7 +387,7 @@
         "template--18761085354265__9f27999d-5438-420b-b679-26661463ee66-16824184578750e9f3-2": {
           "type": "button",
           "settings": {
-            "button_label": "Coming to get you",
+            "button_label": "",
             "button_link": ""
           }
         }
