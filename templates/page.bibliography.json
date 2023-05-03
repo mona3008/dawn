@@ -834,8 +834,8 @@
         "template--18761085354265__21e595ce-8ff9-499d-82bf-def001a636d4-16824184578750e9f3-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Buy a copy",
+            "button_link": "shopify:\/\/products\/my-uncle-john-is-a-zombie-the-novel-by-john-russo-paperback"
           }
         }
       },
