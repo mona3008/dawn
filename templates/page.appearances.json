@@ -42,12 +42,23 @@
             "button_label": "Learn more!",
             "button_link": "https:\/\/www.monsterbashnews.com\/bash-June.html"
           }
+        },
+        "d200278c-39d6-4553-9514-3bfef246bc79": {
+          "type": "row",
+          "settings": {
+            "caption": "Indianapolis, IN",
+            "heading": "Days Of The Dead",
+            "text": "<p>June 23rd - June 25th, 2023<\/p>",
+            "button_label": "Learn More!",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "template--18859836178713__5544534a-9c80-4d85-9a94-11db0f1ea9c6-1683086613197fd451-0",
         "template--18859836178713__5544534a-9c80-4d85-9a94-11db0f1ea9c6-1683086613197fd451-1",
-        "template--18859836178713__5544534a-9c80-4d85-9a94-11db0f1ea9c6-1683086613197fd451-2"
+        "template--18859836178713__5544534a-9c80-4d85-9a94-11db0f1ea9c6-1683086613197fd451-2",
+        "d200278c-39d6-4553-9514-3bfef246bc79"
       ],
       "settings": {
         "image_height": "adapt",
