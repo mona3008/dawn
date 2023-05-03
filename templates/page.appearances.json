@@ -48,8 +48,8 @@
         "template--18859836178713__5544534a-9c80-4d85-9a94-11db0f1ea9c6-1683086613197fd451-2"
       ],
       "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
+        "image_height": "adapt",
+        "desktop_image_width": "small",
         "heading_size": "h1",
         "text_style": "body",
         "button_style": "secondary",
