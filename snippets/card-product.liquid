@@ -198,10 +198,12 @@
               </p>
             {%- endif -%}
 
-            {% unless product.tags contains 'amazon' %}
+{% if product.tags contains 'amazon' %}
+  <span class="card-product__price"></span>
+{% else %}
   {% render 'product-price', product: product, price_class: 'card-product__price' %}
-{% endunless %}
-{% render 'price', product: card_product, price_class: '' %}
+{% endif %}
+
           </div>
         </div>
         {%- if show_quick_add -%}
