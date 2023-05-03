@@ -36,8 +36,8 @@
         "template--18833141268761__26a882ed-63c7-4f6c-b568-295e599d2063-168291175427a310c6-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Shop the collection",
+            "button_link": "shopify:\/\/collections\/night-of-the-living-dead"
           }
         }
       },
