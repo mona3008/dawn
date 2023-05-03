@@ -6,19 +6,9 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "9b33ea3b-b58d-4dab-8ce5-e505f9ffaa60": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "inverse",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
-    "main",
-    "9b33ea3b-b58d-4dab-8ce5-e505f9ffaa60"
+    "main"
   ]
 }
