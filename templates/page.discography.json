@@ -24,10 +24,11 @@
         "template--18761096659225__5be37cc7-bbc5-4192-82bf-ed4ce868f2b0-1683086613197fd451-1": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "shopify:\/\/shop_images\/corbymob.jpg",
+            "caption": "2002",
+            "heading": "Chuck corby sings the mob hits!",
+            "text": "",
+            "button_label": "",
             "button_link": ""
           }
         },
