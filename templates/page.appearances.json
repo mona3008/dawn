@@ -90,7 +90,8 @@
         "ab6ef9e9-60eb-4acc-ad42-438d487f4b75": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
+            "image": "shopify:\/\/shop_images\/schorrorcon.webp",
+            "caption": "Columbia, SC",
             "heading": "SC Horror Con",
             "text": "<p>September 16th - 17th, 2023<\/p>",
             "button_label": "Learn more!",
