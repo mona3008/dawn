@@ -46,9 +46,14 @@
     {%- endcomment -%}
     <div class="price__regular">
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
-      <span class="price-item price-item--regular">
-        {{ money_price }}
-      </span>
+      {% if product.tags contains 'amazon' %}
+  <span class="price-item price-item--regular" style="display:none;"></span>
+{% else %}
+  <span class="price-item price-item--regular">
+    {{ money_price }}
+  </span>
+{% endif %}
+
     </div>
     <div class="price__sale">
       {%- unless product.price_varies == false and product.compare_at_price_varies %}
