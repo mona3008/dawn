@@ -75,6 +75,17 @@
             "button_label": "Learn more!",
             "button_link": "https:\/\/www.motorcitynightmares.com\/"
           }
+        },
+        "d7435854-51b3-4647-8655-d10d1f5d04e8": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/da3979414b74af4511b6bfa95f9b4430.png",
+            "caption": "Orinda, CA (Bay Area)",
+            "heading": "Creatures Con",
+            "text": "<p>August 12th, 2023 - 11am to 3pm<\/p>",
+            "button_label": "Learn more!",
+            "button_link": "http:\/\/www.creaturescon.com\/"
+          }
         }
       },
       "block_order": [
@@ -83,7 +94,8 @@
         "template--18859836178713__5544534a-9c80-4d85-9a94-11db0f1ea9c6-1683086613197fd451-2",
         "d200278c-39d6-4553-9514-3bfef246bc79",
         "e1e171d6-7390-4bb8-8b3a-63d60b97c077",
-        "2851d1f4-d386-406e-8ac7-90076f761c98"
+        "2851d1f4-d386-406e-8ac7-90076f761c98",
+        "d7435854-51b3-4647-8655-d10d1f5d04e8"
       ],
       "settings": {
         "image_height": "adapt",
