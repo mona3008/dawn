@@ -33,13 +33,20 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/capricornlogo.jpg"
           }
+        },
+        "0dee11a2-36bd-4bb1-9155-d9c915f6878e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chuckcorbylogo.jpg"
+          }
         }
       },
       "block_order": [
         "2ecec39c-05b2-4fac-b7ab-ecf1809cd4ca",
         "734f7898-14a2-4e32-8a24-133112624e61",
         "acb901f2-8cd5-4a36-b83a-5717d74248d0",
-        "e8fffd15-6c56-49ab-993c-4e2386642704"
+        "e8fffd15-6c56-49ab-993c-4e2386642704",
+        "0dee11a2-36bd-4bb1-9155-d9c915f6878e"
       ],
       "settings": {
         "heading": "",
