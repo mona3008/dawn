@@ -53,13 +53,25 @@
             "button_label": "Learn More!",
             "button_link": "https:\/\/daysofthedead.com\/indianapolis\/"
           }
+        },
+        "e1e171d6-7390-4bb8-8b3a-63d60b97c077": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/344560683_505357601660689_7635821928400072480_n.jpg",
+            "caption": "University Of Rio Grande College, OH",
+            "heading": "Final Boss Con",
+            "text": "<p>July 15th 2023, 11am-6pm<\/p>",
+            "button_label": "Learn more!",
+            "button_link": "https:\/\/www.finalbosscon.com\/"
+          }
         }
       },
       "block_order": [
         "template--18859836178713__5544534a-9c80-4d85-9a94-11db0f1ea9c6-1683086613197fd451-0",
         "template--18859836178713__5544534a-9c80-4d85-9a94-11db0f1ea9c6-1683086613197fd451-1",
         "template--18859836178713__5544534a-9c80-4d85-9a94-11db0f1ea9c6-1683086613197fd451-2",
-        "d200278c-39d6-4553-9514-3bfef246bc79"
+        "d200278c-39d6-4553-9514-3bfef246bc79",
+        "e1e171d6-7390-4bb8-8b3a-63d60b97c077"
       ],
       "settings": {
         "image_height": "adapt",
