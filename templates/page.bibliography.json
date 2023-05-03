@@ -592,19 +592,11 @@
             "text": "<p>Russo's filmmaking guidebooks are known as bibles of the industry. You'll learn everything from high-end camera operation to the finer points of blocking shots and directing talent. Plus you’ll discover the secrets to securing financing for your movies, negotiating contracts and how to get your projects into theaters.<br\/><br\/><em>\"I made a movie I didn't finish. Then I read your books, took notes and made charts, and that's what guided me through my first finished movie.\" - <\/em><em><strong>Quentin Tarantino<\/strong><\/em><\/p>",
             "text_style": "body"
           }
-        },
-        "template--18761085354265__2e2d6ff3-4c94-4e60-aafb-9decedeb8d97-16824184578750e9f3-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Knock 'em dead",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "template--18761085354265__2e2d6ff3-4c94-4e60-aafb-9decedeb8d97-16824184578750e9f3-0",
-        "template--18761085354265__2e2d6ff3-4c94-4e60-aafb-9decedeb8d97-16824184578750e9f3-1",
-        "template--18761085354265__2e2d6ff3-4c94-4e60-aafb-9decedeb8d97-16824184578750e9f3-2"
+        "template--18761085354265__2e2d6ff3-4c94-4e60-aafb-9decedeb8d97-16824184578750e9f3-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/scare-tactics.png",
