@@ -97,6 +97,17 @@
             "button_label": "Learn more!",
             "button_link": "https:\/\/schorror.com\/"
           }
+        },
+        "f6ae0fc2-66c3-4141-8447-11bba2d1c09b": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ldw_announce.png",
+            "caption": "Harmony, PA (Evans City)",
+            "heading": "Living Dead Weekend",
+            "text": "<p>October 20th - 22nd, 2023<\/p>",
+            "button_label": "Learn more!",
+            "button_link": "https:\/\/www.thelivingdeadweekend.com\/evans-city\/"
+          }
         }
       },
       "block_order": [
@@ -107,7 +118,8 @@
         "e1e171d6-7390-4bb8-8b3a-63d60b97c077",
         "2851d1f4-d386-406e-8ac7-90076f761c98",
         "d7435854-51b3-4647-8655-d10d1f5d04e8",
-        "ab6ef9e9-60eb-4acc-ad42-438d487f4b75"
+        "ab6ef9e9-60eb-4acc-ad42-438d487f4b75",
+        "f6ae0fc2-66c3-4141-8447-11bba2d1c09b"
       ],
       "settings": {
         "image_height": "adapt",
