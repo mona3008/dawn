@@ -198,7 +198,10 @@
               </p>
             {%- endif -%}
 
-            {% render 'price', product: card_product, price_class: '' %}
+            {% unless product.tags contains 'amazon' %}
+  {% render 'product-price', product: product, price_class: 'card-product__price' %}
+{% endunless %}
+{% render 'price', product: card_product, price_class: '' %}
           </div>
         </div>
         {%- if show_quick_add -%}
