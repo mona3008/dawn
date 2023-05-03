@@ -46,11 +46,12 @@
         "d200278c-39d6-4553-9514-3bfef246bc79": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/dotdindy.jpg",
             "caption": "Indianapolis, IN",
             "heading": "Days Of The Dead",
             "text": "<p>June 23rd - June 25th, 2023<\/p>",
             "button_label": "Learn More!",
-            "button_link": ""
+            "button_link": "https:\/\/daysofthedead.com\/indianapolis\/"
           }
         }
       },
