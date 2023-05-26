@@ -30,6 +30,37 @@
         "padding_bottom": 32
       }
     },
+    "featured_collection": {
+      "type": "featured-collection",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "Featured Products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "uppercase",
+        "collection": "featured-products",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
     "3c1f8e1c-8503-47b1-bfab-cfde4c9a10b9": {
       "type": "collection-list",
       "blocks": {
@@ -105,37 +136,6 @@
         "padding_bottom": 20
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "title": "Featured Products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "uppercase",
-        "collection": "featured-products",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 8,
-        "padding_bottom": 8
-      }
-    },
     "collage": {
       "type": "collage",
       "disabled": true,
@@ -180,8 +180,8 @@
   "order": [
     "f374c17b-21f0-4b3b-a1df-a74d062a78e9",
     "3c77b8e4-6109-4473-894e-e65d74f0c962",
-    "3c1f8e1c-8503-47b1-bfab-cfde4c9a10b9",
     "featured_collection",
+    "3c1f8e1c-8503-47b1-bfab-cfde4c9a10b9",
     "collage"
   ]
 }
